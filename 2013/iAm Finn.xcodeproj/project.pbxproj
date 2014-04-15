@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0E20BB18FD54D500CEC3F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B418FD54D500CEC3F2 /* Default-568h@2x.png */; };
+		CC0E20BC18FD54D500CEC3F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B518FD54D500CEC3F2 /* Default.png */; };
+		CC0E20BD18FD54D500CEC3F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B618FD54D500CEC3F2 /* Default@2x.png */; };
+		CC0E20BE18FD54D500CEC3F2 /* Icon-Alternative.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B718FD54D500CEC3F2 /* Icon-Alternative.png */; };
+		CC0E20BF18FD54D500CEC3F2 /* Icon-Alternative@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B818FD54D500CEC3F2 /* Icon-Alternative@2x.png */; };
+		CC0E20C018FD54D500CEC3F2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B918FD54D500CEC3F2 /* icon.png */; };
+		CC0E20C118FD54D500CEC3F2 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20BA18FD54D500CEC3F2 /* icon@2x.png */; };
+		CC0E20D318FD54F900CEC3F2 /* FGAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E20C418FD54F900CEC3F2 /* FGAboutViewController.m */; };
+		CC0E20D418FD54F900CEC3F2 /* FGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E20C618FD54F900CEC3F2 /* FGAppDelegate.m */; };
+		CC0E20D518FD54F900CEC3F2 /* FGContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E20C818FD54F900CEC3F2 /* FGContactViewController.m */; };
+		CC0E20D618FD54F900CEC3F2 /* FGGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E20CA18FD54F900CEC3F2 /* FGGradientLayer.m */; };
+		CC0E20D718FD54F900CEC3F2 /* FGSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E20CC18FD54F900CEC3F2 /* FGSideViewController.m */; };
+		CC0E20D818FD54F900CEC3F2 /* FGStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E20CE18FD54F900CEC3F2 /* FGStartViewController.m */; };
+		CC0E20D918FD54F900CEC3F2 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E20D018FD54F900CEC3F2 /* FGViewController.m */; };
+		CC0E20DA18FD54F900CEC3F2 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0E20D218FD54F900CEC3F2 /* UIImageView+LBBlurredImage.m */; };
 		CC14920B1730868B00B510B2 /* nav-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC14920A1730868B00B510B2 /* nav-left@2x.png */; };
 		CC1492131730898700B510B2 /* photography-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CC14920E1730898700B510B2 /* photography-camera.png */; };
 		CC1492141730898700B510B2 /* twitter-bird.png in Resources */ = {isa = PBXBuildFile; fileRef = CC14920F1730898700B510B2 /* twitter-bird.png */; };
 		CC1492151730898700B510B2 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1492101730898700B510B2 /* user.png */; };
-		CC149218173102E600B510B2 /* FGSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC149217173102E600B510B2 /* FGSideViewController.m */; };
 		CC19221917312CAB00951919 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC19221717312CAB00951919 /* OpenSans-Light.ttf */; };
 		CC19221A17312CAB00951919 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC19221817312CAB00951919 /* OpenSans-Regular.ttf */; };
 		CC1922221731376300951919 /* floppy.png in Resources */ = {isa = PBXBuildFile; fileRef = CC19221F1731376300951919 /* floppy.png */; };
 		CC1922231731376300951919 /* letter.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1922201731376300951919 /* letter.png */; };
 		CC1922241731376300951919 /* user-white.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1922211731376300951919 /* user-white.png */; };
-		CC34AFFE17318CC600BA75BF /* FGContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34AFFD17318CC600BA75BF /* FGContactViewController.m */; };
 		CC34B000173192F300BA75BF /* envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34AFFF173192F300BA75BF /* envelope.png */; };
-		CC34B0031731965D00BA75BF /* FGStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34B0021731965D00BA75BF /* FGStartViewController.m */; };
-		CC34B0051731985100BA75BF /* Icon-Alternative.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34B0041731985100BA75BF /* Icon-Alternative.png */; };
-		CC34B0071731985300BA75BF /* Icon-Alternative@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34B0061731985300BA75BF /* Icon-Alternative@2x.png */; };
-		CC34B009173199B300BA75BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34B008173199B300BA75BF /* Default@2x.png */; };
-		CC34B00B173199C600BA75BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34B00A173199C600BA75BF /* Default.png */; };
-		CC34B00D1731A2E600BA75BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34B00C1731A2E600BA75BF /* Default-568h@2x.png */; };
 		CC34B0111731AEC200BA75BF /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34B0101731AEC100BA75BF /* arrow.png */; };
-		CC34B0131731BC5700BA75BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34B0121731BC5700BA75BF /* icon@2x.png */; };
-		CC34B0151731BC6F00BA75BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CC34B0141731BC6F00BA75BF /* icon.png */; };
-		CC7D965C17316DA900B3088E /* FGAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7D965B17316DA900B3088E /* FGAboutViewController.m */; };
 		CC7D96611731724D00B3088E /* Apfeltube.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7D965D1731724D00B3088E /* Apfeltube.png */; };
 		CC7D96621731724D00B3088E /* Arduino.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7D965E1731724D00B3088E /* Arduino.png */; };
 		CC7D96631731724D00B3088E /* Finngaida in Resources */ = {isa = PBXBuildFile; fileRef = CC7D965F1731724D00B3088E /* Finngaida */; };
@@ -47,10 +51,7 @@
 		CCF7767B173073AA00C09810 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7767A173073AA00C09810 /* CoreGraphics.framework */; };
 		CCF77681173073AA00C09810 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF7767F173073AA00C09810 /* InfoPlist.strings */; };
 		CCF77683173073AA00C09810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF77682173073AA00C09810 /* main.m */; };
-		CCF77687173073AA00C09810 /* FGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF77686173073AA00C09810 /* FGAppDelegate.m */; };
 		CCF77690173073AA00C09810 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF7768E173073AA00C09810 /* MainStoryboard.storyboard */; };
-		CCF77693173073AA00C09810 /* FGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF77692173073AA00C09810 /* FGViewController.m */; };
-		CCF7769B173073C200C09810 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF7769A173073C200C09810 /* UIImageView+LBBlurredImage.m */; };
 		CCF7769D173076FE00C09810 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF7769C173076FE00C09810 /* CoreImage.framework */; };
 		CCF776A51730786B00C09810 /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF7769F1730786B00C09810 /* cover.png */; };
 		CCF776A61730786B00C09810 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF776A01730786B00C09810 /* globe.png */; };
@@ -60,37 +61,44 @@
 		CCF776AC173078DB00C09810 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF776AB173078DB00C09810 /* QuartzCore.framework */; };
 		CCF776AF17307A5400C09810 /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF776AD17307A5400C09810 /* nav.png */; };
 		CCF776B017307A5400C09810 /* nav@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF776AE17307A5400C09810 /* nav@2x.png */; };
-		CCF776B517307E7200C09810 /* FGGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF776B417307E7200C09810 /* FGGradientLayer.m */; };
 		CCF776B71730803600C09810 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF776B61730803600C09810 /* note.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC0E20B418FD54D500CEC3F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Img/Default-568h@2x.png"; sourceTree = "<group>"; };
+		CC0E20B518FD54D500CEC3F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Img/Default.png; sourceTree = "<group>"; };
+		CC0E20B618FD54D500CEC3F2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Img/Default@2x.png"; sourceTree = "<group>"; };
+		CC0E20B718FD54D500CEC3F2 /* Icon-Alternative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Alternative.png"; path = "Img/Icon-Alternative.png"; sourceTree = "<group>"; };
+		CC0E20B818FD54D500CEC3F2 /* Icon-Alternative@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Alternative@2x.png"; path = "Img/Icon-Alternative@2x.png"; sourceTree = "<group>"; };
+		CC0E20B918FD54D500CEC3F2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Img/icon.png; sourceTree = "<group>"; };
+		CC0E20BA18FD54D500CEC3F2 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Img/icon@2x.png"; sourceTree = "<group>"; };
+		CC0E20C318FD54F900CEC3F2 /* FGAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGAboutViewController.h; path = Classes/FGAboutViewController.h; sourceTree = "<group>"; };
+		CC0E20C418FD54F900CEC3F2 /* FGAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGAboutViewController.m; path = Classes/FGAboutViewController.m; sourceTree = "<group>"; };
+		CC0E20C518FD54F900CEC3F2 /* FGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGAppDelegate.h; path = Classes/FGAppDelegate.h; sourceTree = "<group>"; };
+		CC0E20C618FD54F900CEC3F2 /* FGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGAppDelegate.m; path = Classes/FGAppDelegate.m; sourceTree = "<group>"; };
+		CC0E20C718FD54F900CEC3F2 /* FGContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGContactViewController.h; path = Classes/FGContactViewController.h; sourceTree = "<group>"; };
+		CC0E20C818FD54F900CEC3F2 /* FGContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGContactViewController.m; path = Classes/FGContactViewController.m; sourceTree = "<group>"; };
+		CC0E20C918FD54F900CEC3F2 /* FGGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGGradientLayer.h; path = Classes/FGGradientLayer.h; sourceTree = "<group>"; };
+		CC0E20CA18FD54F900CEC3F2 /* FGGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGGradientLayer.m; path = Classes/FGGradientLayer.m; sourceTree = "<group>"; };
+		CC0E20CB18FD54F900CEC3F2 /* FGSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGSideViewController.h; path = Classes/FGSideViewController.h; sourceTree = "<group>"; };
+		CC0E20CC18FD54F900CEC3F2 /* FGSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGSideViewController.m; path = Classes/FGSideViewController.m; sourceTree = "<group>"; };
+		CC0E20CD18FD54F900CEC3F2 /* FGStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGStartViewController.h; path = Classes/FGStartViewController.h; sourceTree = "<group>"; };
+		CC0E20CE18FD54F900CEC3F2 /* FGStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGStartViewController.m; path = Classes/FGStartViewController.m; sourceTree = "<group>"; };
+		CC0E20CF18FD54F900CEC3F2 /* FGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGViewController.h; path = Classes/FGViewController.h; sourceTree = "<group>"; };
+		CC0E20D018FD54F900CEC3F2 /* FGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGViewController.m; path = Classes/FGViewController.m; sourceTree = "<group>"; };
+		CC0E20D118FD54F900CEC3F2 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+LBBlurredImage.h"; path = "Classes/UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		CC0E20D218FD54F900CEC3F2 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+LBBlurredImage.m"; path = "Classes/UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
 		CC14920A1730868B00B510B2 /* nav-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-left@2x.png"; sourceTree = "<group>"; };
 		CC14920E1730898700B510B2 /* photography-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photography-camera.png"; sourceTree = "<group>"; };
 		CC14920F1730898700B510B2 /* twitter-bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-bird.png"; sourceTree = "<group>"; };
 		CC1492101730898700B510B2 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
-		CC149216173102E600B510B2 /* FGSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGSideViewController.h; sourceTree = "<group>"; };
-		CC149217173102E600B510B2 /* FGSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGSideViewController.m; sourceTree = "<group>"; };
 		CC19221717312CAB00951919 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		CC19221817312CAB00951919 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		CC19221F1731376300951919 /* floppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floppy.png; sourceTree = "<group>"; };
 		CC1922201731376300951919 /* letter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter.png; sourceTree = "<group>"; };
 		CC1922211731376300951919 /* user-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-white.png"; sourceTree = "<group>"; };
-		CC34AFFC17318CC600BA75BF /* FGContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGContactViewController.h; sourceTree = "<group>"; };
-		CC34AFFD17318CC600BA75BF /* FGContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGContactViewController.m; sourceTree = "<group>"; };
 		CC34AFFF173192F300BA75BF /* envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = envelope.png; sourceTree = "<group>"; };
-		CC34B0011731965D00BA75BF /* FGStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGStartViewController.h; sourceTree = "<group>"; };
-		CC34B0021731965D00BA75BF /* FGStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGStartViewController.m; sourceTree = "<group>"; };
-		CC34B0041731985100BA75BF /* Icon-Alternative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Alternative.png"; path = "../Icon-Alternative.png"; sourceTree = "<group>"; };
-		CC34B0061731985300BA75BF /* Icon-Alternative@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Alternative@2x.png"; path = "../Icon-Alternative@2x.png"; sourceTree = "<group>"; };
-		CC34B008173199B300BA75BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		CC34B00A173199C600BA75BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		CC34B00C1731A2E600BA75BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CC34B0101731AEC100BA75BF /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
-		CC34B0121731BC5700BA75BF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		CC34B0141731BC6F00BA75BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		CC7D965A17316DA900B3088E /* FGAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGAboutViewController.h; sourceTree = "<group>"; };
-		CC7D965B17316DA900B3088E /* FGAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGAboutViewController.m; sourceTree = "<group>"; };
 		CC7D965D1731724D00B3088E /* Apfeltube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apfeltube.png; sourceTree = "<group>"; };
 		CC7D965E1731724D00B3088E /* Arduino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arduino.png; sourceTree = "<group>"; };
 		CC7D965F1731724D00B3088E /* Finngaida */ = {isa = PBXFileReference; lastKnownFileType = file; path = Finngaida; sourceTree = "<group>"; };
@@ -112,13 +120,7 @@
 		CCF77680173073AA00C09810 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCF77682173073AA00C09810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCF77684173073AA00C09810 /* iAm Finn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iAm Finn-Prefix.pch"; sourceTree = "<group>"; };
-		CCF77685173073AA00C09810 /* FGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGAppDelegate.h; sourceTree = "<group>"; };
-		CCF77686173073AA00C09810 /* FGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGAppDelegate.m; sourceTree = "<group>"; };
 		CCF7768F173073AA00C09810 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CCF77691173073AA00C09810 /* FGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGViewController.h; sourceTree = "<group>"; };
-		CCF77692173073AA00C09810 /* FGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGViewController.m; sourceTree = "<group>"; };
-		CCF77699173073C200C09810 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
-		CCF7769A173073C200C09810 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
 		CCF7769C173076FE00C09810 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		CCF7769F1730786B00C09810 /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
 		CCF776A01730786B00C09810 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
@@ -128,8 +130,6 @@
 		CCF776AB173078DB00C09810 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CCF776AD17307A5400C09810 /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav.png; sourceTree = "<group>"; };
 		CCF776AE17307A5400C09810 /* nav@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav@2x.png"; sourceTree = "<group>"; };
-		CCF776B317307E7200C09810 /* FGGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGGradientLayer.h; sourceTree = "<group>"; };
-		CCF776B417307E7200C09810 /* FGGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGGradientLayer.m; sourceTree = "<group>"; };
 		CCF776B61730803600C09810 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,14 +149,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC0E20B318FD544C00CEC3F2 /* App Img */ = {
+			isa = PBXGroup;
+			children = (
+				CC0E20B418FD54D500CEC3F2 /* Default-568h@2x.png */,
+				CC0E20B518FD54D500CEC3F2 /* Default.png */,
+				CC0E20B618FD54D500CEC3F2 /* Default@2x.png */,
+				CC0E20B718FD54D500CEC3F2 /* Icon-Alternative.png */,
+				CC0E20B818FD54D500CEC3F2 /* Icon-Alternative@2x.png */,
+				CC0E20B918FD54D500CEC3F2 /* icon.png */,
+				CC0E20BA18FD54D500CEC3F2 /* icon@2x.png */,
+			);
+			name = "App Img";
+			sourceTree = "<group>";
+		};
+		CC0E20C218FD54EE00CEC3F2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC0E20C318FD54F900CEC3F2 /* FGAboutViewController.h */,
+				CC0E20C418FD54F900CEC3F2 /* FGAboutViewController.m */,
+				CC0E20C518FD54F900CEC3F2 /* FGAppDelegate.h */,
+				CC0E20C618FD54F900CEC3F2 /* FGAppDelegate.m */,
+				CC0E20C718FD54F900CEC3F2 /* FGContactViewController.h */,
+				CC0E20C818FD54F900CEC3F2 /* FGContactViewController.m */,
+				CC0E20C918FD54F900CEC3F2 /* FGGradientLayer.h */,
+				CC0E20CA18FD54F900CEC3F2 /* FGGradientLayer.m */,
+				CC0E20CB18FD54F900CEC3F2 /* FGSideViewController.h */,
+				CC0E20CC18FD54F900CEC3F2 /* FGSideViewController.m */,
+				CC0E20CD18FD54F900CEC3F2 /* FGStartViewController.h */,
+				CC0E20CE18FD54F900CEC3F2 /* FGStartViewController.m */,
+				CC0E20CF18FD54F900CEC3F2 /* FGViewController.h */,
+				CC0E20D018FD54F900CEC3F2 /* FGViewController.m */,
+				CC0E20D118FD54F900CEC3F2 /* UIImageView+LBBlurredImage.h */,
+				CC0E20D218FD54F900CEC3F2 /* UIImageView+LBBlurredImage.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		CCF7766A173073AA00C09810 = {
 			isa = PBXGroup;
 			children = (
-				CC34B0141731BC6F00BA75BF /* icon.png */,
-				CC34B0121731BC5700BA75BF /* icon@2x.png */,
-				CC34B00C1731A2E600BA75BF /* Default-568h@2x.png */,
-				CC34B00A173199C600BA75BF /* Default.png */,
-				CC34B008173199B300BA75BF /* Default@2x.png */,
 				CCF7767C173073AA00C09810 /* iAm Finn */,
 				CCF77675173073AA00C09810 /* Frameworks */,
 				CCF77674173073AA00C09810 /* Products */,
@@ -186,19 +218,10 @@
 		CCF7767C173073AA00C09810 /* iAm Finn */ = {
 			isa = PBXGroup;
 			children = (
-				CCF77685173073AA00C09810 /* FGAppDelegate.h */,
-				CCF77686173073AA00C09810 /* FGAppDelegate.m */,
+				CC0E20C218FD54EE00CEC3F2 /* Classes */,
+				CC0E20B318FD544C00CEC3F2 /* App Img */,
 				CCF7768E173073AA00C09810 /* MainStoryboard.storyboard */,
-				CC149216173102E600B510B2 /* FGSideViewController.h */,
-				CC149217173102E600B510B2 /* FGSideViewController.m */,
-				CC34B0011731965D00BA75BF /* FGStartViewController.h */,
-				CC34B0021731965D00BA75BF /* FGStartViewController.m */,
-				CCF77691173073AA00C09810 /* FGViewController.h */,
-				CCF77692173073AA00C09810 /* FGViewController.m */,
-				CC7D965A17316DA900B3088E /* FGAboutViewController.h */,
-				CC7D965B17316DA900B3088E /* FGAboutViewController.m */,
-				CC34AFFC17318CC600BA75BF /* FGContactViewController.h */,
-				CC34AFFD17318CC600BA75BF /* FGContactViewController.m */,
+				CCF7769E1730786B00C09810 /* Img */,
 				CCF7767D173073AA00C09810 /* Supporting Files */,
 			);
 			path = "iAm Finn";
@@ -207,14 +230,7 @@
 		CCF7767D173073AA00C09810 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC34B0061731985300BA75BF /* Icon-Alternative@2x.png */,
-				CC34B0041731985100BA75BF /* Icon-Alternative.png */,
 				CC19221717312CAB00951919 /* OpenSans-Light.ttf */,
-				CCF776B317307E7200C09810 /* FGGradientLayer.h */,
-				CCF776B417307E7200C09810 /* FGGradientLayer.m */,
-				CCF7769E1730786B00C09810 /* Img */,
-				CCF77699173073C200C09810 /* UIImageView+LBBlurredImage.h */,
-				CCF7769A173073C200C09810 /* UIImageView+LBBlurredImage.m */,
 				CCF7767E173073AA00C09810 /* iAm Finn-Info.plist */,
 				CCF7767F173073AA00C09810 /* InfoPlist.strings */,
 				CCF77682173073AA00C09810 /* main.m */,
@@ -316,21 +332,27 @@
 				CCF77681173073AA00C09810 /* InfoPlist.strings in Resources */,
 				CCF77690173073AA00C09810 /* MainStoryboard.storyboard in Resources */,
 				CCF776A51730786B00C09810 /* cover.png in Resources */,
+				CC0E20BB18FD54D500CEC3F2 /* Default-568h@2x.png in Resources */,
 				CCF776A61730786B00C09810 /* globe.png in Resources */,
 				CCF776A71730786B00C09810 /* heart.png in Resources */,
 				CCF776A81730786B00C09810 /* me.png in Resources */,
 				CCF776A91730786B00C09810 /* nav-left.png in Resources */,
+				CC0E20C018FD54D500CEC3F2 /* icon.png in Resources */,
 				CCF776AF17307A5400C09810 /* nav.png in Resources */,
 				CCF776B017307A5400C09810 /* nav@2x.png in Resources */,
 				CCF776B71730803600C09810 /* note.png in Resources */,
+				CC0E20BC18FD54D500CEC3F2 /* Default.png in Resources */,
 				CC14920B1730868B00B510B2 /* nav-left@2x.png in Resources */,
 				CC1492131730898700B510B2 /* photography-camera.png in Resources */,
+				CC0E20BF18FD54D500CEC3F2 /* Icon-Alternative@2x.png in Resources */,
 				CC1492141730898700B510B2 /* twitter-bird.png in Resources */,
+				CC0E20C118FD54D500CEC3F2 /* icon@2x.png in Resources */,
 				CC1492151730898700B510B2 /* user.png in Resources */,
 				CCAD3A63173111AB00F8B7D1 /* nav-side.png in Resources */,
 				CCAD3A64173111AB00F8B7D1 /* nav-side2x.png in Resources */,
 				CC19221917312CAB00951919 /* OpenSans-Light.ttf in Resources */,
 				CC19221A17312CAB00951919 /* OpenSans-Regular.ttf in Resources */,
+				CC0E20BE18FD54D500CEC3F2 /* Icon-Alternative.png in Resources */,
 				CC1922221731376300951919 /* floppy.png in Resources */,
 				CC1922231731376300951919 /* letter.png in Resources */,
 				CC1922241731376300951919 /* user-white.png in Resources */,
@@ -341,15 +363,9 @@
 				CC7D96661731744200B3088E /* Movie in Resources */,
 				CC7D9668173174BF00B3088E /* Future.png in Resources */,
 				CC7D966A173175C100B3088E /* ios.png in Resources */,
+				CC0E20BD18FD54D500CEC3F2 /* Default@2x.png in Resources */,
 				CC34B000173192F300BA75BF /* envelope.png in Resources */,
-				CC34B0051731985100BA75BF /* Icon-Alternative.png in Resources */,
-				CC34B0071731985300BA75BF /* Icon-Alternative@2x.png in Resources */,
-				CC34B009173199B300BA75BF /* Default@2x.png in Resources */,
-				CC34B00B173199C600BA75BF /* Default.png in Resources */,
-				CC34B00D1731A2E600BA75BF /* Default-568h@2x.png in Resources */,
 				CC34B0111731AEC200BA75BF /* arrow.png in Resources */,
-				CC34B0131731BC5700BA75BF /* icon@2x.png in Resources */,
-				CC34B0151731BC6F00BA75BF /* icon.png in Resources */,
 				CCE2E690173229D400E93020 /* bottom in Resources */,
 				CCE2E691173229D400E93020 /* fam.jpg in Resources */,
 				CCE2E692173229D400E93020 /* rocket in Resources */,
@@ -365,14 +381,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCF77683173073AA00C09810 /* main.m in Sources */,
-				CCF77687173073AA00C09810 /* FGAppDelegate.m in Sources */,
-				CCF77693173073AA00C09810 /* FGViewController.m in Sources */,
-				CCF7769B173073C200C09810 /* UIImageView+LBBlurredImage.m in Sources */,
-				CCF776B517307E7200C09810 /* FGGradientLayer.m in Sources */,
-				CC149218173102E600B510B2 /* FGSideViewController.m in Sources */,
-				CC7D965C17316DA900B3088E /* FGAboutViewController.m in Sources */,
-				CC34AFFE17318CC600BA75BF /* FGContactViewController.m in Sources */,
-				CC34B0031731965D00BA75BF /* FGStartViewController.m in Sources */,
+				CC0E20DA18FD54F900CEC3F2 /* UIImageView+LBBlurredImage.m in Sources */,
+				CC0E20D318FD54F900CEC3F2 /* FGAboutViewController.m in Sources */,
+				CC0E20D718FD54F900CEC3F2 /* FGSideViewController.m in Sources */,
+				CC0E20D518FD54F900CEC3F2 /* FGContactViewController.m in Sources */,
+				CC0E20D418FD54F900CEC3F2 /* FGAppDelegate.m in Sources */,
+				CC0E20D618FD54F900CEC3F2 /* FGGradientLayer.m in Sources */,
+				CC0E20D818FD54F900CEC3F2 /* FGStartViewController.m in Sources */,
+				CC0E20D918FD54F900CEC3F2 /* FGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
