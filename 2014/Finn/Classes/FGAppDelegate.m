@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Finn Gaida. All rights reserved.
 //
 
-#import "TestFlight.h"
 #import "FGAppDelegate.h"
 
 @implementation FGAppDelegate {

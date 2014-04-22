@@ -68,8 +68,6 @@
 		CC0E215A18FD565200CEC3F2 /* youtheast.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E214118FD565200CEC3F2 /* youtheast.png */; };
 		CC0E215B18FD565200CEC3F2 /* yrs.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E214218FD565200CEC3F2 /* yrs.png */; };
 		CC0E215C18FD565200CEC3F2 /* zugang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC0E214318FD565200CEC3F2 /* zugang.jpg */; };
-		CC47DD7B18F5D92700E22B0F /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC47DD7718F5D92700E22B0F /* libTestFlight.a */; };
-		CC47DD7D18F5D93100E22B0F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CC47DD7C18F5D93100E22B0F /* libz.dylib */; };
 		CCF503B118EDEE3B001056FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF503B018EDEE3B001056FB /* Foundation.framework */; };
 		CCF503B318EDEE3B001056FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF503B218EDEE3B001056FB /* CoreGraphics.framework */; };
 		CCF503B518EDEE3B001056FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF503B418EDEE3B001056FB /* UIKit.framework */; };
@@ -83,9 +81,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC0E20DB18FD55D600CEC3F2 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = Classes/TestFlight.h; sourceTree = "<group>"; };
-		CC0E20DC18FD55D600CEC3F2 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TestFlight+AsyncLogging.h"; path = "Classes/TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		CC0E20DD18FD55D600CEC3F2 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TestFlight+ManualSessions.h"; path = "Classes/TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		CC0E20DE18FD55D600CEC3F2 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "Classes/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		CC0E20DF18FD55D600CEC3F2 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "Classes/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		CC0E20E018FD55D600CEC3F2 /* UIView+FGCloning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FGCloning.m"; path = "Classes/UIView+FGCloning.m"; sourceTree = "<group>"; };
@@ -152,8 +147,6 @@
 		CC0E214118FD565200CEC3F2 /* youtheast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = youtheast.png; path = Img/Icons/youtheast.png; sourceTree = "<group>"; };
 		CC0E214218FD565200CEC3F2 /* yrs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yrs.png; path = Img/Icons/yrs.png; sourceTree = "<group>"; };
 		CC0E214318FD565200CEC3F2 /* zugang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zugang.jpg; path = Img/Icons/zugang.jpg; sourceTree = "<group>"; };
-		CC47DD7718F5D92700E22B0F /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		CC47DD7C18F5D93100E22B0F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		CCF503AD18EDEE3B001056FB /* Finn Gaida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finn Gaida.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF503B018EDEE3B001056FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCF503B218EDEE3B001056FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -175,8 +168,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC47DD7D18F5D93100E22B0F /* libz.dylib in Frameworks */,
-				CC47DD7B18F5D92700E22B0F /* libTestFlight.a in Frameworks */,
 				CCF503EC18EDF81E001056FB /* QuartzCore.framework in Frameworks */,
 				CCF503B318EDEE3B001056FB /* CoreGraphics.framework in Frameworks */,
 				CCF503B518EDEE3B001056FB /* UIKit.framework in Frameworks */,
@@ -252,10 +243,6 @@
 		CC47DD7618F5D91600E22B0F /* External */ = {
 			isa = PBXGroup;
 			children = (
-				CC47DD7718F5D92700E22B0F /* libTestFlight.a */,
-				CC0E20DB18FD55D600CEC3F2 /* TestFlight.h */,
-				CC0E20DC18FD55D600CEC3F2 /* TestFlight+AsyncLogging.h */,
-				CC0E20DD18FD55D600CEC3F2 /* TestFlight+ManualSessions.h */,
 				CC0E20DE18FD55D600CEC3F2 /* UIImage+ImageEffects.h */,
 				CC0E20DF18FD55D600CEC3F2 /* UIImage+ImageEffects.m */,
 				CC0E20E018FD55D600CEC3F2 /* UIView+FGCloning.m */,
@@ -335,7 +322,6 @@
 		CCF503AF18EDEE3B001056FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC47DD7C18F5D93100E22B0F /* libz.dylib */,
 				CCF503EB18EDF81E001056FB /* QuartzCore.framework */,
 				CCF503B018EDEE3B001056FB /* Foundation.framework */,
 				CCF503B218EDEE3B001056FB /* CoreGraphics.framework */,
