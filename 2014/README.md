@@ -13,3 +13,4 @@ Apache, pretty much. Use controls at your own will and let me know if you make s
 
 #### ToDo
 - 3.5" screen support
+- better memory management
