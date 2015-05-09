@@ -12,7 +12,7 @@ Basically I reused last years' concept and then built upon that, so it's an iPho
 When you build and run the app pretty much explains itself, just follow the instructions on screen
 
 ## Was it any good?
-I have no idea. The big surprise happens on May 8.
+OH HECK YES! I finally made it! Apple awarded me a scholarship to attend WWDC 2015 with this app.
 
 ## Can I use it?
 Sure! Go ahead and clone it, fork it, download it, do whatever the hell you want, just please don't distribute it under your name. :)  
