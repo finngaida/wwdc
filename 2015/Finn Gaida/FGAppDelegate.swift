@@ -25,7 +25,7 @@ class FGAppDelegate: UIResponder, UIApplicationDelegate {
         // if there are more than one screen available, put something neat on it
         if (UIScreen.screens().count > 1) {
             
-            let secondScreen:UIScreen = UIScreen.screens()[1] as! UIScreen
+            let secondScreen:UIScreen = UIScreen.screens()[1] 
             window2 = UIWindow(frame: secondScreen.bounds)
             window2?.screen = secondScreen
             

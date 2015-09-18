@@ -46,22 +46,22 @@ class FGCategoryButton: UIControl {
         
         containerRect = CGRectMake(self.frame.width * ((1 - shrinkFactor)/2), self.frame.width * ((1 - shrinkFactor)/2), self.frame.width * shrinkFactor, self.frame.width * shrinkFactor)
         
-        var darkmode = NSUserDefaults.standardUserDefaults().boolForKey("darkmode")
+        let darkmode = NSUserDefaults.standardUserDefaults().boolForKey("darkmode")
         container.frame = containerRect
         container.backgroundColor = UIColor(white: 0.3, alpha: 0.5)
         container.layer.masksToBounds = true
         container.layer.cornerRadius = rect.width/6
         container.autoresizesSubviews = true
-        var blurView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
+        let blurView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
         blurView.frame = CGRectMake(0, 0, container.frame.width, container.frame.height)
         container.addSubview(blurView)
         self.addSubview(container)
         
-        var iconView = UIImageView(image: UIImage(named: "w\(title!.lowercaseString)"))
+        let iconView = UIImageView(image: UIImage(named: "w\(title!.lowercaseString)"))
         iconView.frame = CGRectMake(container.frame.width * 0.2, container.frame.width * 0.2, container.frame.width * 0.6, container.frame.width * 0.6)
         container.addSubview(iconView)
         
-        var titleLabel = UILabel(frame: CGRectMake(10, rect.height, rect.width - 20, rect.height*0.2))
+        let titleLabel = UILabel(frame: CGRectMake(10, rect.height, rect.width - 20, rect.height*0.2))
         titleLabel.backgroundColor = UIColor.clearColor()
         titleLabel.textColor = (darkmode) ? UIColor.whiteColor() : UIColor.blackColor()
         titleLabel.font = UIFont(name: "HelveticaNeue", size: rect.width/8)
@@ -102,11 +102,11 @@ class FGCategoryButton: UIControl {
         
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         touchDown(self)
     }
     
-    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         touchUp(self)
     }
     
@@ -115,17 +115,17 @@ class FGCategoryButton: UIControl {
         let shrinkFactor:CGFloat = 0.95
         
         // animate button to smaller state
-        UIView.animateWithDuration(0.25, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: nil, animations: { () -> Void in
+        UIView.animateWithDuration(0.25, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: UIViewAnimationOptions.AllowAnimatedContent, animations: { () -> Void in
             
             let newFrame = CGRectMake(self.containerRect.width * ((1 - shrinkFactor) / 2), self.containerRect.height * ((1 - shrinkFactor) / 2), self.frame.width * shrinkFactor, self.frame.height * shrinkFactor)
             sender.container.frame = newFrame
             
             if (self.isApp) {
-                var ico = sender.subviews[0] as! UIView
+                let ico = sender.subviews[0]
                 ico.frame = CGRectMake(ico.frame.origin.x * shrinkFactor, ico.frame.origin.y * shrinkFactor, ico.frame.width * shrinkFactor, ico.frame.width * shrinkFactor)
                 self.icon.frame = CGRectMake(self.icon.frame.origin.x + self.icon.frame.width * (1 - shrinkFactor), self.icon.frame.origin.y + self.icon.frame.height * (1 - shrinkFactor), self.icon.frame.width * shrinkFactor, self.icon.frame.width * shrinkFactor)
             } else {
-                var ico = sender.subviews[0].subviews[1] as! UIView
+                let ico = sender.subviews[0].subviews[1]
                 ico.frame = CGRectMake(ico.frame.origin.x * shrinkFactor, ico.frame.origin.y * shrinkFactor, ico.frame.width * shrinkFactor, ico.frame.width * shrinkFactor)
                 self.icon.frame = CGRectMake(self.icon.frame.origin.x + self.icon.frame.width * (1 - shrinkFactor), self.icon.frame.origin.y + self.icon.frame.height * (1 - shrinkFactor), self.icon.frame.width * shrinkFactor, self.icon.frame.width * shrinkFactor)
             }
@@ -150,20 +150,20 @@ class FGCategoryButton: UIControl {
         //}
         
         // animate button to smaller state
-        UIView.animateWithDuration(0.25, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: nil, animations: { () -> Void in
+        UIView.animateWithDuration(0.25, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: UIViewAnimationOptions.AllowAnimatedContent, animations: { () -> Void in
             
             let newFrame = CGRectMake(0, 0, self.containerRect.width, self.containerRect.height)
             sender.container.frame = newFrame
             
             if (self.isApp) {
                 let shrinkFactor:CGFloat = 0.95
-                var ico = sender.subviews[0] as! UIView
+                let ico = sender.subviews[0] 
                 ico.frame = CGRectMake(ico.frame.origin.x / shrinkFactor, ico.frame.origin.y / shrinkFactor, ico.frame.width / shrinkFactor, ico.frame.width / shrinkFactor)
                 
                 self.icon.frame = CGRectMake(0, 0, self.frame.width, self.frame.height)
             } else {
                 let shrinkFactor:CGFloat = 0.95
-                var ico = sender.subviews[0].subviews[1] as! UIView
+                let ico = sender.subviews[0].subviews[1]
                 ico.frame = CGRectMake(ico.frame.origin.x / shrinkFactor, ico.frame.origin.y / shrinkFactor, ico.frame.width / shrinkFactor, ico.frame.width / shrinkFactor)
                 
                 self.icon.frame = CGRectMake(0, 0, self.frame.width, self.frame.height)

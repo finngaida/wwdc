@@ -61,7 +61,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
         let statusBG = UIView(frame: CGRectMake(0, 0, self.view.frame.width, 20))
         statusBG.backgroundColor = UIColor(white: 0.0, alpha: 0.5)
         self.view.addSubview(statusBG)
-        var blurView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
+        let blurView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
         blurView.frame = statusBG.frame
         statusBG.addSubview(blurView)
         
@@ -76,7 +76,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
         switch (identifier) {
         case 0:     // Events
             
-            var titleField2 = UILabel(frame: CGRectMake(15, 65, self.view.frame.width - 30, 70))
+            let titleField2 = UILabel(frame: CGRectMake(15, 65, self.view.frame.width - 30, 70))
             titleField2.backgroundColor = UIColor.clearColor()
             titleField2.textColor = UIColor.blackColor()
             titleField2.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -100,7 +100,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             
             let adj:CGFloat = -160
             let ict0:CGFloat = textField.frame.origin.y + textField.frame.height + adj + 40
-            var titleField3 = UILabel(frame: CGRectMake(15, ict0 + 65, self.view.frame.width - 30, 70))
+            let titleField3 = UILabel(frame: CGRectMake(15, ict0 + 65, self.view.frame.width - 30, 70))
             titleField3.backgroundColor = UIColor.clearColor()
             titleField3.textColor = UIColor.blackColor()
             titleField3.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -125,7 +125,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             
             
             let zugang0 = textField2.frame.origin.y + textField2.frame.height + adj - 10
-            var titleField4 = UILabel(frame: CGRectMake(15, zugang0 + 65, self.view.frame.width - 30, 70))
+            let titleField4 = UILabel(frame: CGRectMake(15, zugang0 + 65, self.view.frame.width - 30, 70))
             titleField4.backgroundColor = UIColor.clearColor()
             titleField4.textColor = UIColor.blackColor()
             titleField4.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -151,7 +151,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             
             
             let thinkspace0 = textField3.frame.origin.y + textField3.frame.height + adj - 20
-            var titleField5 = UILabel(frame: CGRectMake(15, thinkspace0 + 65, self.view.frame.width - 30, 70))
+            let titleField5 = UILabel(frame: CGRectMake(15, thinkspace0 + 65, self.view.frame.width - 30, 70))
             titleField5.backgroundColor = UIColor.clearColor()
             titleField5.textColor = UIColor.blackColor()
             titleField5.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -177,7 +177,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             
             
             let jhackt20 = textField4.frame.origin.y + textField4.frame.height + adj + 20
-            var titleField6 = UILabel(frame: CGRectMake(15, jhackt20 + 65, self.view.frame.width - 30, 70))
+            let titleField6 = UILabel(frame: CGRectMake(15, jhackt20 + 65, self.view.frame.width - 30, 70))
             titleField6.backgroundColor = UIColor.clearColor()
             titleField6.textColor = UIColor.blackColor()
             titleField6.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -203,7 +203,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             
             
             let bliep0 = textField5.frame.origin.y + textField5.frame.height + adj + 20
-            var titleField7 = UILabel(frame: CGRectMake(15, bliep0 + 65, self.view.frame.width - 30, 70))
+            let titleField7 = UILabel(frame: CGRectMake(15, bliep0 + 65, self.view.frame.width - 30, 70))
             titleField7.backgroundColor = UIColor.clearColor()
             titleField7.textColor = UIColor.blackColor()
             titleField7.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -235,7 +235,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             sunupicon.appDelegate = self
             container.addSubview(sunupicon)
             
-            var titleField2 = UILabel(frame: CGRectMake(75, 65, self.view.frame.width - 30, 70))
+            let titleField2 = UILabel(frame: CGRectMake(75, 65, self.view.frame.width - 30, 70))
             titleField2.backgroundColor = UIColor.clearColor()
             titleField2.textColor = UIColor.blackColor()
             titleField2.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -260,14 +260,14 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             brightnessicon.appDelegate = self
             container.addSubview(brightnessicon)
             
-            var titleField3 = UILabel(frame: CGRectMake(75, brightness0 + 65, self.view.frame.width - 30, 70))
+            let titleField3 = UILabel(frame: CGRectMake(75, brightness0 + 65, self.view.frame.width - 30, 70))
             titleField3.backgroundColor = UIColor.clearColor()
             titleField3.textColor = UIColor.blackColor()
             titleField3.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
             titleField3.text = "Brightness"
             container.addSubview(titleField3)
             
-            var textField2 = UITextView(frame: CGRectMake(15, brightness0 + 120, self.view.frame.width - 30, 450))
+            let textField2 = UITextView(frame: CGRectMake(15, brightness0 + 120, self.view.frame.width - 30, 450))
             textField2.backgroundColor = UIColor.clearColor()
             textField2.textColor = UIColor.blackColor()
             textField2.editable = false
@@ -282,14 +282,14 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             fabtapicon.appDelegate = self
             container.addSubview(fabtapicon)
             
-            var titleField4 = UILabel(frame: CGRectMake(75, fabtap0 + 65, self.view.frame.width - 30, 70))
+            let titleField4 = UILabel(frame: CGRectMake(75, fabtap0 + 65, self.view.frame.width - 30, 70))
             titleField4.backgroundColor = UIColor.clearColor()
             titleField4.textColor = UIColor.blackColor()
             titleField4.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
             titleField4.text = "FabTap"
             container.addSubview(titleField4)
             
-            var textField3 = UITextView(frame: CGRectMake(15, fabtap0 + 120, self.view.frame.width - 30, 450))
+            let textField3 = UITextView(frame: CGRectMake(15, fabtap0 + 120, self.view.frame.width - 30, 450))
             textField3.backgroundColor = UIColor.clearColor()
             textField3.textColor = UIColor.blackColor()
             textField3.editable = false
@@ -304,14 +304,14 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             plateicon.appDelegate = self
             container.addSubview(plateicon)
             
-            var titleField5 = UILabel(frame: CGRectMake(75, plate0 + 65, self.view.frame.width - 30, 70))
+            let titleField5 = UILabel(frame: CGRectMake(75, plate0 + 65, self.view.frame.width - 30, 70))
             titleField5.backgroundColor = UIColor.clearColor()
             titleField5.textColor = UIColor.blackColor()
             titleField5.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
             titleField5.text = "PlateCollect"
             container.addSubview(titleField5)
             
-            var textField4 = UITextView(frame: CGRectMake(15, plate0 + 120, self.view.frame.width - 30, 450))
+            let textField4 = UITextView(frame: CGRectMake(15, plate0 + 120, self.view.frame.width - 30, 450))
             textField4.backgroundColor = UIColor.clearColor()
             textField4.textColor = UIColor.blackColor()
             textField4.editable = false
@@ -326,14 +326,14 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             kolumbusicon.appDelegate = self
             container.addSubview(kolumbusicon)
             
-            var titleField6 = UILabel(frame: CGRectMake(75, kolumbus0 + 65, self.view.frame.width - 30, 70))
+            let titleField6 = UILabel(frame: CGRectMake(75, kolumbus0 + 65, self.view.frame.width - 30, 70))
             titleField6.backgroundColor = UIColor.clearColor()
             titleField6.textColor = UIColor.blackColor()
             titleField6.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
             titleField6.text = "Kolumbus"
             container.addSubview(titleField6)
             
-            var textField5 = UITextView(frame: CGRectMake(15, kolumbus0 + 120, self.view.frame.width - 30, 450))
+            let textField5 = UITextView(frame: CGRectMake(15, kolumbus0 + 120, self.view.frame.width - 30, 450))
             textField5.backgroundColor = UIColor.clearColor()
             textField5.textColor = UIColor.blackColor()
             textField5.editable = false
@@ -349,14 +349,14 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             youtheasticon.appDelegate = self
             container.addSubview(youtheasticon)
             
-            var titleField7 = UILabel(frame: CGRectMake(75, youtheast0 + 65, self.view.frame.width - 30, 70))
+            let titleField7 = UILabel(frame: CGRectMake(75, youtheast0 + 65, self.view.frame.width - 30, 70))
             titleField7.backgroundColor = UIColor.clearColor()
             titleField7.textColor = UIColor.blackColor()
             titleField7.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
             titleField7.text = "YouthEast"
             container.addSubview(titleField7)
             
-            var textField6 = UITextView(frame: CGRectMake(15, youtheast0 + 120, self.view.frame.width - 30, 450))
+            let textField6 = UITextView(frame: CGRectMake(15, youtheast0 + 120, self.view.frame.width - 30, 450))
             textField6.backgroundColor = UIColor.clearColor()
             textField6.textColor = UIColor.blackColor()
             textField6.editable = false
@@ -371,14 +371,14 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             apprupticon.appDelegate = self
             container.addSubview(apprupticon)
             
-            var titleField8 = UILabel(frame: CGRectMake(75, apprupt0 + 65, self.view.frame.width - 30, 70))
+            let titleField8 = UILabel(frame: CGRectMake(75, apprupt0 + 65, self.view.frame.width - 30, 70))
             titleField8.backgroundColor = UIColor.clearColor()
             titleField8.textColor = UIColor.blackColor()
             titleField8.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
             titleField8.text = "apprupt"
             container.addSubview(titleField8)
             
-            var textField7 = UITextView(frame: CGRectMake(15, apprupt0 + 120, self.view.frame.width - 30, 500))
+            let textField7 = UITextView(frame: CGRectMake(15, apprupt0 + 120, self.view.frame.width - 30, 500))
             textField7.backgroundColor = UIColor.clearColor()
             textField7.textColor = UIColor.blackColor()
             textField7.editable = false
@@ -394,7 +394,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             
         case 2:  // Education
             
-            var titleField = UILabel(frame: CGRectMake(15, 65, self.view.frame.width - 30, 70))
+            let titleField = UILabel(frame: CGRectMake(15, 65, self.view.frame.width - 30, 70))
             titleField.backgroundColor = UIColor.clearColor()
             titleField.textColor = UIColor.blackColor()
             titleField.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -407,7 +407,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             alstergym.layer.cornerRadius = 9
             container.addSubview(alstergym)
             
-            var textField = UITextView(frame: CGRectMake(15, alstergym.frame.origin.y + alstergym.frame.height + 15, self.view.frame.width - 30, 500))
+            let textField = UITextView(frame: CGRectMake(15, alstergym.frame.origin.y + alstergym.frame.height + 15, self.view.frame.width - 30, 500))
             textField.backgroundColor = UIColor.clearColor()
             textField.textColor = UIColor.blackColor()
             textField.editable = false
@@ -418,7 +418,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             
             
             let y0 = textField.frame.origin.y + textField.frame.height
-            var titleField2 = UILabel(frame: CGRectMake(15, y0, self.view.frame.width - 30, 70))
+            let titleField2 = UILabel(frame: CGRectMake(15, y0, self.view.frame.width - 30, 70))
             titleField2.backgroundColor = UIColor.clearColor()
             titleField2.textColor = UIColor.blackColor()
             titleField2.font = UIFont(name: "HelveticaNeue-Bold", size: 30)
@@ -431,7 +431,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             desy.layer.cornerRadius = 9
             container.addSubview(desy)
             
-            var textField2 = UITextView(frame: CGRectMake(15, desy.frame.origin.y + desy.frame.height + 20, self.view.frame.width - 30, 500))
+            let textField2 = UITextView(frame: CGRectMake(15, desy.frame.origin.y + desy.frame.height + 20, self.view.frame.width - 30, 500))
             textField2.backgroundColor = UIColor.clearColor()
             textField2.textColor = UIColor.blackColor()
             textField2.editable = false
@@ -456,7 +456,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             family.layer.cornerRadius = 9
             container.addSubview(family)
             
-            var textField = UITextView(frame: CGRectMake(15, family.frame.origin.y + family.frame.height , self.view.frame.width - 30, 620))
+            let textField = UITextView(frame: CGRectMake(15, family.frame.origin.y + family.frame.height , self.view.frame.width - 30, 620))
             textField.backgroundColor = UIColor.clearColor()
             textField.textColor = UIColor.blackColor()
             textField.editable = false
@@ -476,7 +476,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             wwdc.layer.cornerRadius = 9
             container.addSubview(wwdc)
             
-            var textField = UITextView(frame: CGRectMake(15, 280, self.view.frame.width - 30, 300))
+            let textField = UITextView(frame: CGRectMake(15, 280, self.view.frame.width - 30, 300))
             textField.backgroundColor = UIColor.clearColor()
             textField.textColor = UIColor.blackColor()
             textField.editable = false
@@ -504,10 +504,10 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
             self.container.frame = CGRectMake(0, self.container.frame.origin.y, self.container.frame.width, hitme.frame.origin.y + hitme.frame.height + 15)
             self.scrollView.contentSize = CGSizeMake(self.container.frame.width, self.container.frame.height + 30.0)
             
-        default: println("Something went terribly wrong here")
+        default: print("Something went terribly wrong here")
         }
         
-        UIView.animateWithDuration(0.5, delay: 0.2, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: nil, animations: { () -> Void in
+        UIView.animateWithDuration(0.5, delay: 0.2, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: UIViewAnimationOptions.AllowAnimatedContent, animations: { () -> Void in
             self.container.frame = CGRectMake(0, 20, self.container.frame.width, self.container.frame.height)
             self.darkener.alpha = 0.7
             }) { (Bool) -> Void in
@@ -518,7 +518,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
     
     func hideStory(up: Bool) {
         
-        UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: nil, animations: { () -> Void in
+        UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0, options: UIViewAnimationOptions.AllowAnimatedContent, animations: { () -> Void in
             self.container.frame = CGRectMake(0, (up) ? -self.scrollView.frame.height : self.scrollView.frame.height, self.container.frame.width, self.container.frame.height)
             self.darkener.alpha = 0.0
             }) { (Bool) -> Void in
@@ -647,7 +647,7 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
                 
                 if ((error) != nil) {
                     
-                    println("error showing appstore with \(app)")
+                    print("error showing appstore with \(app)")
                     
                 } else {
                     
@@ -657,14 +657,14 @@ class FGStoryController: UIViewController, UIScrollViewDelegate, SKStoreProductV
                     
                 }
                 
-                println("AppStore result is \(result)")
+                print("AppStore result is \(result)")
                 
             })
         }
         
     }
     
-    func productViewControllerDidFinish(viewController: SKStoreProductViewController!) {
+    func productViewControllerDidFinish(viewController: SKStoreProductViewController) {
         viewController.dismissViewControllerAnimated(true, completion: { () -> Void in
             
         })

@@ -153,7 +153,7 @@
         title.textColor = [UIColor whiteColor];
         title.textAlignment = NSTextAlignmentCenter;
         title.numberOfLines = 0;
-        title.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:70];
+        title.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:40];
         title.text = @"Finn Gaida";
         [self.view addSubview:title];
         
@@ -163,7 +163,7 @@
         description.textColor = [UIColor whiteColor];
         description.textAlignment = NSTextAlignmentLeft;
         description.numberOfLines = 0;
-        description.font = [UIFont fontWithName:@"HelveticaNeue" size:40];
+        description.font = [UIFont fontWithName:@"HelveticaNeue" size:20];
         [self.view addSubview:description];
         
         // mostly iphone image view - shall not be resized

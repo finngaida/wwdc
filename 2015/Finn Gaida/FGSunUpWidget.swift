@@ -55,14 +55,14 @@ class FGSunUpWidget: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         indicator.alpha = 1
         self.delegate.scrollView.scrollEnabled = false
     }
     
-    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
-        let point = (touches.first as! UITouch).locationInView(self as UIView)
+        let point = touches.first!.locationInView(self as UIView)
         
         var angle:CGFloat
         let mid = CGPointMake(self.frame.width/2, self.frame.height/2)
@@ -122,7 +122,7 @@ class FGSunUpWidget: UIView {
         
     }
     
-    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         indicator.alpha = 0
         self.delegate.scrollView.scrollEnabled = true
     }

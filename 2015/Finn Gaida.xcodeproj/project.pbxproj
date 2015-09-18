@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5281B171BAB10A100A29AAE /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5281B161BAB10A100A29AAE /* PassKit.framework */; };
+		C5281B191BAB11D300A29AAE /* Finn.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5281B181BAB11D300A29AAE /* Finn.pkpass */; };
 		CC42F2B81AE14D8800E9B68D /* FGAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42F2B71AE14D8800E9B68D /* FGAppDelegate.swift */; };
 		CC42F2BA1AE14D8800E9B68D /* FGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42F2B91AE14D8800E9B68D /* FGViewController.swift */; };
 		CC42F2BD1AE14D8800E9B68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC42F2BB1AE14D8800E9B68D /* Main.storyboard */; };
@@ -99,6 +101,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5281B161BAB10A100A29AAE /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		C5281B181BAB11D300A29AAE /* Finn.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Finn.pkpass; sourceTree = "<group>"; };
 		CC42F2B21AE14D8800E9B68D /* Finn Gaida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finn Gaida.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC42F2B61AE14D8800E9B68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC42F2B71AE14D8800E9B68D /* FGAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGAppDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5281B171BAB10A100A29AAE /* PassKit.framework in Frameworks */,
 				CC68D1E01AE9321D004DEB27 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +259,8 @@
 		CC42F2B51AE14D8800E9B68D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5281B161BAB10A100A29AAE /* PassKit.framework */,
+				C5281B181BAB11D300A29AAE /* Finn.pkpass */,
 				CC68D1DF1AE9321D004DEB27 /* StoreKit.framework */,
 				CC42F2B61AE14D8800E9B68D /* Info.plist */,
 			);
@@ -370,7 +377,8 @@
 		CC42F2AA1AE14D8700E9B68D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Finn Gaida";
 				TargetAttributes = {
 					CC42F2B11AE14D8700E9B68D = {
@@ -424,6 +432,7 @@
 				CCC6ABC31AED4DF9007992A3 /* splash6+.png in Resources */,
 				CCC6ABF81AED9084007992A3 /* amoreBG.jpg in Resources */,
 				CC42F2BD1AE14D8800E9B68D /* Main.storyboard in Resources */,
+				C5281B191BAB11D300A29AAE /* Finn.pkpass in Resources */,
 				CC6B06631AE30D0800059E98 /* wevents2.png in Resources */,
 				CCC6ABA61AE9B4C6007992A3 /* logo.jpg in Resources */,
 				CC6B065D1AE30D0800059E98 /* interests.png in Resources */,
@@ -542,10 +551,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Holger Gaida (RF278284CD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Holger Gaida (RF278284CD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -560,10 +570,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "5733beec-c019-44ef-afe4-ec1854d479ff";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -587,8 +597,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Holger Gaida (RF278284CD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Holger Gaida (RF278284CD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -599,9 +609,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "5733beec-c019-44ef-afe4-ec1854d479ff";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -614,11 +624,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Holger Gaida (RF278284CD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Finn Gaida/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.finngaida.WWDC15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5733beec-c019-44ef-afe4-ec1854d479ff";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Finn Gaida/Finn Gaida-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -631,11 +642,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Holger Gaida (RF278284CD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Finn Gaida/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.finngaida.WWDC15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5733beec-c019-44ef-afe4-ec1854d479ff";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Finn Gaida/Finn Gaida-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

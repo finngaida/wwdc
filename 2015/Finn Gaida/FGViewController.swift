@@ -8,6 +8,7 @@
 
 import UIKit
 import StoreKit
+import PassKit
 
 class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductViewControllerDelegate {
     
@@ -25,12 +26,7 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
         
         // setup launch animation
         NSUserDefaults.standardUserDefaults().setBool(true, forKey: "darkmode")
-        var darkmode = NSUserDefaults.standardUserDefaults().boolForKey("darkmode")
-        
-        // set constants
-        let profilePicWidth:CGFloat = 45
-        let nameLabelWidth:CGFloat = self.view.frame.width-200
-        let titleLabelWidth:CGFloat = self.view.frame.width-100
+        _ = NSUserDefaults.standardUserDefaults().boolForKey("darkmode")
         
         // scrollview setup
         self.scrollView.backgroundColor = UIColor.clearColor()
@@ -45,6 +41,11 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
 
         
         /*/ start animation
+        // set constants
+        let profilePicWidth:CGFloat = 45
+        let nameLabelWidth:CGFloat = self.view.frame.width-200
+        let titleLabelWidth:CGFloat = self.view.frame.width-100
+        
         var profilePic = UIImageView(image: UIImage(named: "profile"))
         profilePic.frame = CGRectMake(self.view.frame.midX-profilePicWidth/2, self.view.frame.midX-profilePicWidth/2, profilePicWidth, profilePicWidth)
         profilePic.layer.masksToBounds = true
@@ -76,9 +77,9 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
         // testing
         
         // statusbar dark BG
-        var statusBarBG = UIView(frame: CGRectMake(0, 0, self.view.frame.width, 80))
+        let statusBarBG = UIView(frame: CGRectMake(0, 0, self.view.frame.width, 80))
         statusBarBG.backgroundColor = UIColor(white: 0.1, alpha: 0.5)
-        var blurView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
+        let blurView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
         blurView.frame = CGRectMake(0, 0, statusBarBG.frame.width, statusBarBG.frame.height)
         statusBarBG.addSubview(blurView)
         self.view.addSubview(statusBarBG)
@@ -91,13 +92,17 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
         fga.text = "Finn        Gaida"
         statusBarBG.addSubview(fga)
         
-        let logo = UIImageView(frame: CGRectMake(statusBarBG.frame.width/2-30, 22, 60, 60))
+        let logoBtn = UIButton(frame: CGRectMake(statusBarBG.frame.width/2-30, 22, 60, 60))
+        logoBtn.addTarget(self, action: "showPass", forControlEvents: UIControlEvents.TouchUpInside)
+        statusBarBG.addSubview(logoBtn)
+        
+        let logo = UIImageView(frame: CGRectMake(0, 0, 60, 60))
         logo.layer.masksToBounds = true
         logo.layer.cornerRadius = logo.frame.width/2
         logo.layer.borderWidth = 2.0
         logo.layer.borderColor = UIColor.whiteColor().CGColor
         logo.image = UIImage(named: "logo.jpg")
-        statusBarBG.addSubview(logo)
+        logoBtn.addSubview(logo)
         
         // adding the tiles
         let padding:CGFloat = 25
@@ -109,7 +114,7 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
             let x:CGFloat = ((i-1) % 2 != 0) ? padding : padding * 3 + buttonWidth
             let y = CGFloat(padding) * (CGFloat(Int((Float(i) + 0.5)/2.0)) * 2 + 1) + CGFloat(buttonWidth) * CGFloat(Int((Float(i) + 0.5)/2.0))
             
-            var button = FGCategoryButton(rect: CGRectMake(x, y + 80, buttonWidth, buttonHeight), title: titles[i], delegate: self)
+            let button = FGCategoryButton(rect: CGRectMake(x, y + 80, buttonWidth, buttonHeight), title: titles[i], delegate: self)
             button.tag = i
             self.view.addSubview(button)
     
@@ -119,6 +124,16 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
         // show Tutorial on start
         showStory(4)
         
+    }
+    
+    func showPass() {
+        
+        if (PKPassLibrary.isPassLibraryAvailable()) {
+            var error: NSError?
+            let pass = PKPass(data: NSData(contentsOfURL: NSBundle.mainBundle().URLForResource("Finn", withExtension: "pkpass")!)!, error: &error)
+            let vc = PKAddPassesViewController(pass: pass)
+            self.presentViewController(vc, animated: true, completion: nil)
+        }
     }
     
     func updateBG() {
@@ -134,8 +149,7 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
     }
     
     func showStory(identifier: Int) {
-        
-        var story = FGStoryController() // do sth with the id
+        let story = FGStoryController() // do sth with the id
         self.view.addSubview(story.view)
         self.addChildViewController(story)
         story.showStory(identifier)
@@ -168,7 +182,7 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
             
             if ((error) != nil) {
                 
-                println("error showing appstore with \(app)")
+                print("error showing appstore with \(app)")
                 
             } else {
                 
@@ -178,13 +192,13 @@ class FGViewController: UIViewController, UIScrollViewDelegate, SKStoreProductVi
                 
             }
             
-            println("AppStore result is \(result)")
+            print("AppStore result is \(result)")
             
         })
         
     }
     
-    func productViewControllerDidFinish(viewController: SKStoreProductViewController!) {
+    func productViewControllerDidFinish(viewController: SKStoreProductViewController) {
         
     }
     
