@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode7.3
+before_install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+script:
+ - set -o pipefail
+ - xcodebuild test -project 2013/iAm\ Finn.xcodeproj -scheme iAmFinnTests -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c
+ - xcodebuild test -project 2014/Finn\ Gaida.xcodeproj -scheme FinnGaidaTests -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c
+ - xcodebuild test -project 2015/Finn\ Gaida.xcodeproj -scheme FinnGaidaTests -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c

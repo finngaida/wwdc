@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50733211CB65BF600E44F3E /* FinnGaidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50733201CB65BF600E44F3E /* FinnGaidaTests.swift */; };
 		C5281B171BAB10A100A29AAE /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5281B161BAB10A100A29AAE /* PassKit.framework */; };
 		C5281B191BAB11D300A29AAE /* Finn.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5281B181BAB11D300A29AAE /* Finn.pkpass */; };
 		CC42F2B81AE14D8800E9B68D /* FGAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC42F2B71AE14D8800E9B68D /* FGAppDelegate.swift */; };
@@ -100,7 +101,20 @@
 		CCC6AC0C1AED98A0007992A3 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC6AC0B1AED98A0007992A3 /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C50733231CB65BF600E44F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC42F2AA1AE14D8700E9B68D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC42F2B11AE14D8700E9B68D;
+			remoteInfo = "Finn Gaida";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		C507331E1CB65BF600E44F3E /* FinnGaidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinnGaidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50733201CB65BF600E44F3E /* FinnGaidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnGaidaTests.swift; sourceTree = "<group>"; };
+		C50733221CB65BF600E44F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5281B161BAB10A100A29AAE /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		C5281B181BAB11D300A29AAE /* Finn.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Finn.pkpass; sourceTree = "<group>"; };
 		CC42F2B21AE14D8800E9B68D /* Finn Gaida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finn Gaida.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +216,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C507331B1CB65BF600E44F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC42F2AF1AE14D8700E9B68D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,10 +235,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C507331F1CB65BF600E44F3E /* FinnGaidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C50733201CB65BF600E44F3E /* FinnGaidaTests.swift */,
+				C50733221CB65BF600E44F3E /* Info.plist */,
+			);
+			path = FinnGaidaTests;
+			sourceTree = "<group>";
+		};
 		CC42F2A91AE14D8700E9B68D = {
 			isa = PBXGroup;
 			children = (
 				CC42F2B41AE14D8800E9B68D /* Finn Gaida */,
+				C507331F1CB65BF600E44F3E /* FinnGaidaTests */,
 				CC42F2B31AE14D8800E9B68D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -226,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				CC42F2B21AE14D8800E9B68D /* Finn Gaida.app */,
+				C507331E1CB65BF600E44F3E /* FinnGaidaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -354,6 +386,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C507331D1CB65BF600E44F3E /* FinnGaidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50733271CB65BF600E44F3E /* Build configuration list for PBXNativeTarget "FinnGaidaTests" */;
+			buildPhases = (
+				C507331A1CB65BF600E44F3E /* Sources */,
+				C507331B1CB65BF600E44F3E /* Frameworks */,
+				C507331C1CB65BF600E44F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50733241CB65BF600E44F3E /* PBXTargetDependency */,
+			);
+			name = FinnGaidaTests;
+			productName = FinnGaidaTests;
+			productReference = C507331E1CB65BF600E44F3E /* FinnGaidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CC42F2B11AE14D8700E9B68D /* Finn Gaida */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC42F2D11AE14D8800E9B68D /* Build configuration list for PBXNativeTarget "Finn Gaida" */;
@@ -377,13 +427,16 @@
 		CC42F2AA1AE14D8700E9B68D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Finn Gaida";
 				TargetAttributes = {
+					C507331D1CB65BF600E44F3E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CC42F2B11AE14D8700E9B68D;
+					};
 					CC42F2B11AE14D8700E9B68D = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = RF278284CD;
 					};
 				};
 			};
@@ -401,11 +454,19 @@
 			projectRoot = "";
 			targets = (
 				CC42F2B11AE14D8700E9B68D /* Finn Gaida */,
+				C507331D1CB65BF600E44F3E /* FinnGaidaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C507331C1CB65BF600E44F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC42F2B01AE14D8700E9B68D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,6 +557,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C507331A1CB65BF600E44F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50733211CB65BF600E44F3E /* FinnGaidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC42F2AE1AE14D8700E9B68D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,6 +582,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C50733241CB65BF600E44F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC42F2B11AE14D8700E9B68D /* Finn Gaida */;
+			targetProxy = C50733231CB65BF600E44F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CC42F2BB1AE14D8800E9B68D /* Main.storyboard */ = {
@@ -534,6 +611,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C50733251CB65BF600E44F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = FinnGaidaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.finngaida.FinnGaidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finn Gaida.app/Finn Gaida";
+			};
+			name = Debug;
+		};
+		C50733261CB65BF600E44F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = FinnGaidaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.finngaida.FinnGaidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Finn Gaida.app/Finn Gaida";
+			};
+			name = Release;
+		};
 		CC42F2CF1AE14D8800E9B68D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -656,6 +765,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C50733271CB65BF600E44F3E /* Build configuration list for PBXNativeTarget "FinnGaidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50733251CB65BF600E44F3E /* Debug */,
+				C50733261CB65BF600E44F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CC42F2AD1AE14D8700E9B68D /* Build configuration list for PBXProject "Finn Gaida" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

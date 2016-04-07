@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CC42F2B11AE14D8700E9B68D"
+               BlueprintIdentifier = "CCF503AC18EDEE3B001056FB"
                BuildableName = "Finn Gaida.app"
                BlueprintName = "Finn Gaida"
                ReferencedContainer = "container:Finn Gaida.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C507331D1CB65BF600E44F3E"
+               BlueprintIdentifier = "C507330F1CB65BC400E44F3E"
                BuildableName = "FinnGaidaTests.xctest"
                BlueprintName = "FinnGaidaTests"
                ReferencedContainer = "container:Finn Gaida.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CC42F2B11AE14D8700E9B68D"
+            BlueprintIdentifier = "CCF503AC18EDEE3B001056FB"
             BuildableName = "Finn Gaida.app"
             BlueprintName = "Finn Gaida"
             ReferencedContainer = "container:Finn Gaida.xcodeproj">
@@ -65,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CC42F2B11AE14D8700E9B68D"
+            BlueprintIdentifier = "CCF503AC18EDEE3B001056FB"
             BuildableName = "Finn Gaida.app"
             BlueprintName = "Finn Gaida"
             ReferencedContainer = "container:Finn Gaida.xcodeproj">
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CC42F2B11AE14D8700E9B68D"
+            BlueprintIdentifier = "CCF503AC18EDEE3B001056FB"
             BuildableName = "Finn Gaida.app"
             BlueprintName = "Finn Gaida"
             ReferencedContainer = "container:Finn Gaida.xcodeproj">

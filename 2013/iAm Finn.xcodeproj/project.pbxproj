@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50733051CB65B7100E44F3E /* iAmFinnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50733041CB65B7100E44F3E /* iAmFinnTests.swift */; };
 		CC0E20BB18FD54D500CEC3F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B418FD54D500CEC3F2 /* Default-568h@2x.png */; };
 		CC0E20BC18FD54D500CEC3F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B518FD54D500CEC3F2 /* Default.png */; };
 		CC0E20BD18FD54D500CEC3F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0E20B618FD54D500CEC3F2 /* Default@2x.png */; };
@@ -64,7 +65,20 @@
 		CCF776B71730803600C09810 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF776B61730803600C09810 /* note.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C50733071CB65B7100E44F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF7766B173073AA00C09810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF77672173073AA00C09810;
+			remoteInfo = "iAm Finn";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		C50733021CB65B7100E44F3E /* iAmFinnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAmFinnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50733041CB65B7100E44F3E /* iAmFinnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAmFinnTests.swift; sourceTree = "<group>"; };
+		C50733061CB65B7100E44F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0E20B418FD54D500CEC3F2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Img/Default-568h@2x.png"; sourceTree = "<group>"; };
 		CC0E20B518FD54D500CEC3F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Img/Default.png; sourceTree = "<group>"; };
 		CC0E20B618FD54D500CEC3F2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Img/Default@2x.png"; sourceTree = "<group>"; };
@@ -134,6 +148,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C50732FF1CB65B7100E44F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCF77670173073AA00C09810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +170,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C50733031CB65B7100E44F3E /* iAmFinnTests */ = {
+			isa = PBXGroup;
+			children = (
+				C50733041CB65B7100E44F3E /* iAmFinnTests.swift */,
+				C50733061CB65B7100E44F3E /* Info.plist */,
+			);
+			path = iAmFinnTests;
+			sourceTree = "<group>";
+		};
 		CC0E20B318FD544C00CEC3F2 /* App Img */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				CCF7767C173073AA00C09810 /* iAm Finn */,
+				C50733031CB65B7100E44F3E /* iAmFinnTests */,
 				CCF77675173073AA00C09810 /* Frameworks */,
 				CCF77674173073AA00C09810 /* Products */,
 			);
@@ -199,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				CCF77673173073AA00C09810 /* iAm Finn.app */,
+				C50733021CB65B7100E44F3E /* iAmFinnTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,6 +312,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C50733011CB65B7100E44F3E /* iAmFinnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50733091CB65B7100E44F3E /* Build configuration list for PBXNativeTarget "iAmFinnTests" */;
+			buildPhases = (
+				C50732FE1CB65B7100E44F3E /* Sources */,
+				C50732FF1CB65B7100E44F3E /* Frameworks */,
+				C50733001CB65B7100E44F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50733081CB65B7100E44F3E /* PBXTargetDependency */,
+			);
+			name = iAmFinnTests;
+			productName = iAmFinnTests;
+			productReference = C50733021CB65B7100E44F3E /* iAmFinnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CCF77672173073AA00C09810 /* iAm Finn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCF77696173073AA00C09810 /* Build configuration list for PBXNativeTarget "iAm Finn" */;
@@ -304,8 +354,15 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FG;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Finn Gaida";
+				TargetAttributes = {
+					C50733011CB65B7100E44F3E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CCF77672173073AA00C09810;
+					};
+				};
 			};
 			buildConfigurationList = CCF7766E173073AA00C09810 /* Build configuration list for PBXProject "iAm Finn" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -320,11 +377,19 @@
 			projectRoot = "";
 			targets = (
 				CCF77672173073AA00C09810 /* iAm Finn */,
+				C50733011CB65B7100E44F3E /* iAmFinnTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C50733001CB65B7100E44F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCF77671173073AA00C09810 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,6 +441,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C50732FE1CB65B7100E44F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50733051CB65B7100E44F3E /* iAmFinnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCF7766F173073AA00C09810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,6 +466,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C50733081CB65B7100E44F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF77672173073AA00C09810 /* iAm Finn */;
+			targetProxy = C50733071CB65B7100E44F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CCF7767F173073AA00C09810 /* InfoPlist.strings */ = {
@@ -414,6 +495,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C507330A1CB65B7100E44F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = iAmFinnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.finngaida.iAmFinnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iAm Finn.app/iAm Finn";
+			};
+			name = Debug;
+		};
+		C507330B1CB65B7100E44F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = iAmFinnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = de.finngaida.iAmFinnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iAm Finn.app/iAm Finn";
+			};
+			name = Release;
+		};
 		CCF77694173073AA00C09810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -479,14 +622,14 @@
 		CCF77697173073AA00C09810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iAm Finn/iAm Finn-Prefix.pch";
 				INFOPLIST_FILE = "iAm Finn/iAm Finn-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "F617A7F8-6ECD-4AF8-ACCC-411A52D3AAEE";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F617A7F8-6ECD-4AF8-ACCC-411A52D3AAEE";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -494,14 +637,14 @@
 		CCF77698173073AA00C09810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iAm Finn/iAm Finn-Prefix.pch";
 				INFOPLIST_FILE = "iAm Finn/iAm Finn-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "F617A7F8-6ECD-4AF8-ACCC-411A52D3AAEE";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F617A7F8-6ECD-4AF8-ACCC-411A52D3AAEE";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -509,6 +652,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C50733091CB65B7100E44F3E /* Build configuration list for PBXNativeTarget "iAmFinnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C507330A1CB65B7100E44F3E /* Debug */,
+				C507330B1CB65B7100E44F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CCF7766E173073AA00C09810 /* Build configuration list for PBXProject "iAm Finn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
