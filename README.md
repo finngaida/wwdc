@@ -1,4 +1,4 @@
-Finn Gaida WWDC applications
+Finn Gaida WWDC applications ![travis](https://travis-ci.org/finngaida/wwdc.svg?branch=master)
 ====
 
 In this repository you will find records of my 2013, 2014 and 2015 app. They are separated into the `2013`, the `2014` and the `2015` folders.
