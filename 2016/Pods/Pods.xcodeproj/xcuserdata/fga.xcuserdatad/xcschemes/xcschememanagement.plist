@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GradientView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JTSImageViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PeekPop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Finn Gaida.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Finn GaidaTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3DE7DCF23E5255E71816224105935B07</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7CEA85D5BF347C6197367BC40DCF4CB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>888468051D3F2FB20DEDE1FF5C86DFF8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D714037593A1D0448AF01C98C0203714</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAE26C46CFBAF39E4C96ABF16B93D9FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

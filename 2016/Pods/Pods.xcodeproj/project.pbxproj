@@ -1,0 +1,1087 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C071FAE4C40AAA4B42817D6CB6C5C6F /* Pods-Finn GaidaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F68CC7C0E0B176E25ADA9A57FB2E27B /* Pods-Finn GaidaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E66653BCF70B96636617251337FDF47 /* PeekPop.h in Headers */ = {isa = PBXBuildFile; fileRef = F23EE9DA9F854166C7FF4E9686783501 /* PeekPop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED9FDCD6D833760F39BB93F6A3B7885 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B4EFCFBAA5037DB5CCAF3830DFF005 /* JTSAnimatedGIFUtility.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		100F00AE74DF3E51103F576B177D73F4 /* JTSImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DB403B968EADBAB6B10B5712D38CD231 /* JTSImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		121D94473A5B0F47D98E7E02E4EA1BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD9876C573B9A831BE2FACDC185FC8 /* Foundation.framework */; };
+		1786DD6368EB1C8963ED26FA803CEC6E /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FC873FE55B4DD6A7B5A04EE5327CE /* JTSSimpleImageDownloader.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		22289EC198955DEDB900A28B5C6A7B6D /* JTSAnimatedGIFUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AE4B902C461CD81CB89604B866CC4D /* JTSAnimatedGIFUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		234A2F15B44DA0C2C5A818FFEB2330D0 /* JTSImageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F45F4042F6F8BAAB8C69A716350FED1 /* JTSImageViewController-dummy.m */; };
+		25690DF1BB0725785AEDA7680B25AE64 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0794486112AFCB7B836BEA93602CC /* JTSImageViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		2F751006B3406200D9B7D996742A3BF3 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327DF4CA4F85B1AB5B07912852AF7ECE /* UIApplication+JTSImageViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		350D9CE9DD1DDF29AA16B44CDD6E0FCB /* PeekPop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C019D27F767F0D2153860DC36B48FA /* PeekPop-dummy.m */; };
+		37ABA4AB80729B5D7AA0AD4245BDA710 /* GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 191DEB315B6C95A113C533E2114BB093 /* GradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE36433E84CAC4BB4E81568CD7895BE /* PeekPopExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685768B7599A717AB4C782126C33B55D /* PeekPopExtensions.swift */; };
+		3D9249EF5088E610496EAC89DBBB883F /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C74077769AE41AA2596E5071F1C6F333 /* JTSImageInfo.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		4075CA934892CC5BCDA691B0D8FC944B /* PeekPopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F04FF87CF9B95ADFCC301C9EC5BCCB5 /* PeekPopManager.swift */; };
+		50DE2BBF73FF83731384C9AF2096C41D /* GradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E2C4891BEB06F75BBB61B5E18A306E7 /* GradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517560494E81D7A3A352C776C322FF51 /* JTSImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 332014151F8B1BB9186F1E00BA211B4B /* JTSImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B41470861BB296D045411D3649A6001 /* ForceTouchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCC89C59F5DE260A48C4FFED48C0F83 /* ForceTouchDelegate.swift */; };
+		62C74E92E424A805814FB92D85D66C43 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA080DA014BBA618DCFB5606A5AC1B /* Accelerate.framework */; };
+		633F33B90B61B99C6206A5E13FBE13E0 /* UIApplication+JTSImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CA886373010BFE5831DC7FE768DE77 /* UIApplication+JTSImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		643C785B0936527C4DABF2EBA6498653 /* Pods-Finn Gaida-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68007F9F5B75B37159C782E1F0339A44 /* Pods-Finn Gaida-dummy.m */; };
+		839BB28EE1ECB28F68F5C6976A5C2254 /* PeekPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541DE5EBFE691C71CDD10F601FE5101 /* PeekPopView.swift */; };
+		8ADE2450D138F23249AB7C3A42184931 /* GradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5864BCD842E180311A27CF94101CE20D /* GradientView-dummy.m */; };
+		8CAAEA29F29319EAC43A9195E3277562 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B50CB401B96FC2E566B74CBD2133A /* UIImage+ImageEffects.m */; };
+		92FF8B8C00D02427BFD52159E25CD004 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD9876C573B9A831BE2FACDC185FC8 /* Foundation.framework */; };
+		94F888451953E756A6C391500E185CF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AF19592C425A32A82BFAACE2E7C0A2 /* UIKit.framework */; };
+		959476770DF078D0E186C16D2915332B /* PeekPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F7A16CD6377010708CBBF9891952E3 /* PeekPop.swift */; };
+		9632229B8AE5A7D87966AFA8E164C0E1 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFB47E10D82AA512624AF7E5DE02CDB /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96FF08C7D4834EC544263B0C52506DD8 /* UIImage+JTSImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C79E2D73C5216F35F1D980E501BA01 /* UIImage+JTSImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E050E78D7473BD545F7417441028149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD9876C573B9A831BE2FACDC185FC8 /* Foundation.framework */; };
+		9E8C1220A01D0FA5AFED68D46D3F6122 /* PeekPopGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1AE9EF54543D8B06396AE2663C3E7 /* PeekPopGestureRecognizer.swift */; };
+		A590899AB2385E77CD96F07BCC8DD0D6 /* PeekPop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57080E8A886B55198FC2A0F889260B6B /* PeekPop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB9A08311FAC53A540F1406DB15B4D5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEA080DA014BBA618DCFB5606A5AC1B /* Accelerate.framework */; };
+		B8CCCB05C326A6C3FD9F034C1FE4E56D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD9876C573B9A831BE2FACDC185FC8 /* Foundation.framework */; };
+		BF9618565F8F3D439D036B005BEC05AF /* Pods-Finn Gaida-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B32D26F14068E7E506CE945905EB7823 /* Pods-Finn Gaida-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D598CC16191069F99D8373B3C45DEF0B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF9BB96D7CEF58DE4056C05178E5262 /* ImageIO.framework */; };
+		D75482EDB6BFE64D498B758794A126CA /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5E8F7A28B568351F3D3A3E73FEDF1 /* GradientView.swift */; };
+		DB90027D6022CFE71BFAB9D67C7B924B /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A03546650B20BF29D9E826349F63FB5 /* UIImage+JTSImageEffects.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		DFF21BA3A0C5BC690CBC6E60FF3C7EEA /* Pods-Finn GaidaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7339D38DF6656C3C99D3D326269265 /* Pods-Finn GaidaTests-dummy.m */; };
+		F2FE2EC928C0D880EC074D6FE520B532 /* JTSImageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C5F3EA905EB91A559127D198FCB6BE /* JTSImageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F436BD0DAF1457907EC851BD4F41FF7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AF19592C425A32A82BFAACE2E7C0A2 /* UIKit.framework */; };
+		F508031DE94759906A6C7C0A323DCA9A /* JTSSimpleImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBD1BE395C7C803E48B2DBC329C81AA /* JTSSimpleImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A9E2AF32D67DDB4618BDFB4057382F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD9876C573B9A831BE2FACDC185FC8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B8DD403849DCBCABB0B41C56BAE960E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888468051D3F2FB20DEDE1FF5C86DFF8;
+			remoteInfo = PeekPop;
+		};
+		54D131F1A38FA695C96FB730367A728E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D714037593A1D0448AF01C98C0203714;
+			remoteInfo = GradientView;
+		};
+		D2CE2BD028197C04C87775106BE4D8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE26C46CFBAF39E4C96ABF16B93D9FC;
+			remoteInfo = JTSImageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010F67B173678A6491117523F9FDDD5A /* Pods-Finn GaidaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Finn GaidaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		09A807FFE548C7B453D2B421985F2E08 /* Pods-Finn GaidaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finn GaidaTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F6B50CB401B96FC2E566B74CBD2133A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "PeekPop/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		14AF19592C425A32A82BFAACE2E7C0A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		191DEB315B6C95A113C533E2114BB093 /* GradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GradientView.h; path = GradientView/GradientView.h; sourceTree = "<group>"; };
+		1A011BF593AF651F78CC7C6654366C49 /* Pods-Finn GaidaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Finn GaidaTests-resources.sh"; sourceTree = "<group>"; };
+		1CCC89C59F5DE260A48C4FFED48C0F83 /* ForceTouchDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForceTouchDelegate.swift; path = PeekPop/ForceTouchDelegate.swift; sourceTree = "<group>"; };
+		2150B3B587B27F0799B01D149401AB7C /* GradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		254202F98678ECE9DEEE955C0C7DA3B7 /* Pods-Finn GaidaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Finn GaidaTests.modulemap"; sourceTree = "<group>"; };
+		327DF4CA4F85B1AB5B07912852AF7ECE /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+JTSImageViewController.m"; path = "Source/UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		32C019D27F767F0D2153860DC36B48FA /* PeekPop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PeekPop-dummy.m"; sourceTree = "<group>"; };
+		332014151F8B1BB9186F1E00BA211B4B /* JTSImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSImageViewController.h; path = Source/JTSImageViewController.h; sourceTree = "<group>"; };
+		3AA917E622F1CA19A0ED93385A5EED4A /* Pods-Finn Gaida-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Finn Gaida-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B625D2FAA0B92A9610BC94A86AC2B2F /* PeekPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PeekPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		428717932AB69D6E71F3A8C6A0A2BDE0 /* PeekPop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PeekPop.xcconfig; sourceTree = "<group>"; };
+		43CA886373010BFE5831DC7FE768DE77 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+JTSImageViewController.h"; path = "Source/UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		45AFF99AC614A1FBB44B338063EDC3BB /* Pods-Finn Gaida.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finn Gaida.release.xcconfig"; sourceTree = "<group>"; };
+		4B4FC873FE55B4DD6A7B5A04EE5327CE /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTSSimpleImageDownloader.m; path = Source/JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		4E7339D38DF6656C3C99D3D326269265 /* Pods-Finn GaidaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Finn GaidaTests-dummy.m"; sourceTree = "<group>"; };
+		4EF0794486112AFCB7B836BEA93602CC /* JTSImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTSImageViewController.m; path = Source/JTSImageViewController.m; sourceTree = "<group>"; };
+		57080E8A886B55198FC2A0F889260B6B /* PeekPop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PeekPop-umbrella.h"; sourceTree = "<group>"; };
+		57F61BE83DA969D940A73FCA97476D36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5864BCD842E180311A27CF94101CE20D /* GradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GradientView-dummy.m"; sourceTree = "<group>"; };
+		5874CF4F9EDFF0AD9B268A343D30B38B /* Pods-Finn Gaida-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Finn Gaida-frameworks.sh"; sourceTree = "<group>"; };
+		5A43A425B4E8FA3EACD1DF97F4C988B4 /* Pods-Finn Gaida-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Finn Gaida-resources.sh"; sourceTree = "<group>"; };
+		5E65EA0BFC352F33592079EFBF464FA8 /* Pods-Finn Gaida-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Finn Gaida-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F04FF87CF9B95ADFCC301C9EC5BCCB5 /* PeekPopManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekPopManager.swift; path = PeekPop/PeekPopManager.swift; sourceTree = "<group>"; };
+		5F45F4042F6F8BAAB8C69A716350FED1 /* JTSImageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTSImageViewController-dummy.m"; sourceTree = "<group>"; };
+		610AF41DD93B31C4CFE85094C12F3F4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B4EFCFBAA5037DB5CCAF3830DFF005 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTSAnimatedGIFUtility.m; path = Source/JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		64F830FF533B733BAC8A4A3228CD29E6 /* JTSImageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTSImageViewController-prefix.pch"; sourceTree = "<group>"; };
+		68007F9F5B75B37159C782E1F0339A44 /* Pods-Finn Gaida-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Finn Gaida-dummy.m"; sourceTree = "<group>"; };
+		685768B7599A717AB4C782126C33B55D /* PeekPopExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekPopExtensions.swift; path = PeekPop/PeekPopExtensions.swift; sourceTree = "<group>"; };
+		6B27D8C4FD769228E1505650A5ED4FC8 /* GradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GradientView.modulemap; sourceTree = "<group>"; };
+		732998CDFDF1E0339C84EC8B15A9234F /* GradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GradientView.xcconfig; sourceTree = "<group>"; };
+		750C0B0E7C62F8F669A24F9390159AEB /* JTSImageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JTSImageViewController.modulemap; sourceTree = "<group>"; };
+		7A03546650B20BF29D9E826349F63FB5 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+JTSImageEffects.m"; path = "Source/UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		7F68CC7C0E0B176E25ADA9A57FB2E27B /* Pods-Finn GaidaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Finn GaidaTests-umbrella.h"; sourceTree = "<group>"; };
+		86A245CE3407FD4A985734684AD497D3 /* JTSImageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTSImageViewController.xcconfig; sourceTree = "<group>"; };
+		8F1414613BD4EA742AA75E7C5F02EC7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92998A04E57E228B55EF02A613BF2EBA /* Pods-Finn GaidaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Finn GaidaTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963C08B5D4BBE5AEC569895BA189FA30 /* JTSImageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTSImageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99C79E2D73C5216F35F1D980E501BA01 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+JTSImageEffects.h"; path = "Source/UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		9E2C4891BEB06F75BBB61B5E18A306E7 /* GradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientView-umbrella.h"; sourceTree = "<group>"; };
+		A2CA8CF355F6CE0D483587605BAF9F3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F7A16CD6377010708CBBF9891952E3 /* PeekPop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekPop.swift; path = PeekPop/PeekPop.swift; sourceTree = "<group>"; };
+		ABBD1BE395C7C803E48B2DBC329C81AA /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSSimpleImageDownloader.h; path = Source/JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		ACEA080DA014BBA618DCFB5606A5AC1B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		B32D26F14068E7E506CE945905EB7823 /* Pods-Finn Gaida-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Finn Gaida-umbrella.h"; sourceTree = "<group>"; };
+		C30494D2C870CC3B8C385718113CCC07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7308E409E565C4BF618B427865857BC /* Pods_Finn_Gaida.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finn_Gaida.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74077769AE41AA2596E5071F1C6F333 /* JTSImageInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTSImageInfo.m; path = Source/JTSImageInfo.m; sourceTree = "<group>"; };
+		C7AE4B902C461CD81CB89604B866CC4D /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSAnimatedGIFUtility.h; path = Source/JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		CACD9876C573B9A831BE2FACDC185FC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB403B968EADBAB6B10B5712D38CD231 /* JTSImageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTSImageInfo.h; path = Source/JTSImageInfo.h; sourceTree = "<group>"; };
+		DF2850BF34ED8CB9D3598242C34BDBE7 /* Pods-Finn GaidaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Finn GaidaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFA0A05C18C7F6402A7205E06FDBBB25 /* Pods-Finn Gaida.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Finn Gaida.modulemap"; sourceTree = "<group>"; };
+		E0894B37031A776E211EC71A4A80E521 /* GradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GradientView-prefix.pch"; sourceTree = "<group>"; };
+		E2B182D19FE85713D8D0736418C68199 /* PeekPop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PeekPop.modulemap; sourceTree = "<group>"; };
+		E541DE5EBFE691C71CDD10F601FE5101 /* PeekPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekPopView.swift; path = PeekPop/PeekPopView.swift; sourceTree = "<group>"; };
+		EFCCDC1E71E1893C1BFAE842BE774242 /* Pods-Finn GaidaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finn GaidaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1C5F3EA905EB91A559127D198FCB6BE /* JTSImageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTSImageViewController-umbrella.h"; sourceTree = "<group>"; };
+		F1F1AE9EF54543D8B06396AE2663C3E7 /* PeekPopGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeekPopGestureRecognizer.swift; path = PeekPop/PeekPopGestureRecognizer.swift; sourceTree = "<group>"; };
+		F23EE9DA9F854166C7FF4E9686783501 /* PeekPop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PeekPop.h; path = PeekPop/PeekPop.h; sourceTree = "<group>"; };
+		F2F5E8F7A28B568351F3D3A3E73FEDF1 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = GradientView/GradientView.swift; sourceTree = "<group>"; };
+		F3C7AE2ACD440D3D0231F98D2C208412 /* Pods_Finn_GaidaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finn_GaidaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C706D1F606326B068A8621F476A580 /* Pods-Finn Gaida.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finn Gaida.debug.xcconfig"; sourceTree = "<group>"; };
+		F696C301BDEE2FD45BD8460067CA9001 /* PeekPop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PeekPop-prefix.pch"; sourceTree = "<group>"; };
+		FDF9BB96D7CEF58DE4056C05178E5262 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		FEFB47E10D82AA512624AF7E5DE02CDB /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "PeekPop/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51A4EF2A263A8ECD774222AB8BACC3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C74E92E424A805814FB92D85D66C43 /* Accelerate.framework in Frameworks */,
+				92FF8B8C00D02427BFD52159E25CD004 /* Foundation.framework in Frameworks */,
+				D598CC16191069F99D8373B3C45DEF0B /* ImageIO.framework in Frameworks */,
+				F436BD0DAF1457907EC851BD4F41FF7A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7810D1A545D25613D56C4D671711C8D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A9E2AF32D67DDB4618BDFB4057382F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEDD6E30B379146BC1F2B245B158783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E050E78D7473BD545F7417441028149 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89952221F1E2E6C4A87EA87C85948CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CCCB05C326A6C3FD9F034C1FE4E56D /* Foundation.framework in Frameworks */,
+				94F888451953E756A6C391500E185CF4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64CEDC4BD00C48597C87984C8A6DA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB9A08311FAC53A540F1406DB15B4D5 /* Accelerate.framework in Frameworks */,
+				121D94473A5B0F47D98E7E02E4EA1BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D42C029D0837016CF63D90A0D4BC5E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C3CA9A35129D1960F1F44042A0D92B7 /* PeekPop */ = {
+			isa = PBXGroup;
+			children = (
+				1CCC89C59F5DE260A48C4FFED48C0F83 /* ForceTouchDelegate.swift */,
+				F23EE9DA9F854166C7FF4E9686783501 /* PeekPop.h */,
+				A7F7A16CD6377010708CBBF9891952E3 /* PeekPop.swift */,
+				685768B7599A717AB4C782126C33B55D /* PeekPopExtensions.swift */,
+				F1F1AE9EF54543D8B06396AE2663C3E7 /* PeekPopGestureRecognizer.swift */,
+				5F04FF87CF9B95ADFCC301C9EC5BCCB5 /* PeekPopManager.swift */,
+				E541DE5EBFE691C71CDD10F601FE5101 /* PeekPopView.swift */,
+				FEFB47E10D82AA512624AF7E5DE02CDB /* UIImage+ImageEffects.h */,
+				0F6B50CB401B96FC2E566B74CBD2133A /* UIImage+ImageEffects.m */,
+				93A51365248F729910D9E2F942BFBFF4 /* Support Files */,
+			);
+			path = PeekPop;
+			sourceTree = "<group>";
+		};
+		21DF817DCEF71410F9673896E10FBB35 /* Pods-Finn Gaida */ = {
+			isa = PBXGroup;
+			children = (
+				8F1414613BD4EA742AA75E7C5F02EC7C /* Info.plist */,
+				DFA0A05C18C7F6402A7205E06FDBBB25 /* Pods-Finn Gaida.modulemap */,
+				3AA917E622F1CA19A0ED93385A5EED4A /* Pods-Finn Gaida-acknowledgements.markdown */,
+				5E65EA0BFC352F33592079EFBF464FA8 /* Pods-Finn Gaida-acknowledgements.plist */,
+				68007F9F5B75B37159C782E1F0339A44 /* Pods-Finn Gaida-dummy.m */,
+				5874CF4F9EDFF0AD9B268A343D30B38B /* Pods-Finn Gaida-frameworks.sh */,
+				5A43A425B4E8FA3EACD1DF97F4C988B4 /* Pods-Finn Gaida-resources.sh */,
+				B32D26F14068E7E506CE945905EB7823 /* Pods-Finn Gaida-umbrella.h */,
+				F5C706D1F606326B068A8621F476A580 /* Pods-Finn Gaida.debug.xcconfig */,
+				45AFF99AC614A1FBB44B338063EDC3BB /* Pods-Finn Gaida.release.xcconfig */,
+			);
+			name = "Pods-Finn Gaida";
+			path = "Target Support Files/Pods-Finn Gaida";
+			sourceTree = "<group>";
+		};
+		26C3BEAD0200CEEB719CE8B7D38959BE /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				191DEB315B6C95A113C533E2114BB093 /* GradientView.h */,
+				F2F5E8F7A28B568351F3D3A3E73FEDF1 /* GradientView.swift */,
+				538F00D67C796AEA31E70DD71B416854 /* Support Files */,
+			);
+			path = GradientView;
+			sourceTree = "<group>";
+		};
+		2EE10A6644DA909A3609A98814F0BFA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2150B3B587B27F0799B01D149401AB7C /* GradientView.framework */,
+				963C08B5D4BBE5AEC569895BA189FA30 /* JTSImageViewController.framework */,
+				3B625D2FAA0B92A9610BC94A86AC2B2F /* PeekPop.framework */,
+				C7308E409E565C4BF618B427865857BC /* Pods_Finn_Gaida.framework */,
+				F3C7AE2ACD440D3D0231F98D2C208412 /* Pods_Finn_GaidaTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538F00D67C796AEA31E70DD71B416854 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B27D8C4FD769228E1505650A5ED4FC8 /* GradientView.modulemap */,
+				732998CDFDF1E0339C84EC8B15A9234F /* GradientView.xcconfig */,
+				5864BCD842E180311A27CF94101CE20D /* GradientView-dummy.m */,
+				E0894B37031A776E211EC71A4A80E521 /* GradientView-prefix.pch */,
+				9E2C4891BEB06F75BBB61B5E18A306E7 /* GradientView-umbrella.h */,
+				57F61BE83DA969D940A73FCA97476D36 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GradientView";
+			sourceTree = "<group>";
+		};
+		5D42C029D0837016CF63D90A0D4BC5E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ACEA080DA014BBA618DCFB5606A5AC1B /* Accelerate.framework */,
+				CACD9876C573B9A831BE2FACDC185FC8 /* Foundation.framework */,
+				FDF9BB96D7CEF58DE4056C05178E5262 /* ImageIO.framework */,
+				14AF19592C425A32A82BFAACE2E7C0A2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				EBDDB930DC18FD518F7E2D3B5A4CF6C9 /* Pods */,
+				2EE10A6644DA909A3609A98814F0BFA2 /* Products */,
+				FF39C816E03BF05B6DE10BB24D326D5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93A51365248F729910D9E2F942BFBFF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C30494D2C870CC3B8C385718113CCC07 /* Info.plist */,
+				E2B182D19FE85713D8D0736418C68199 /* PeekPop.modulemap */,
+				428717932AB69D6E71F3A8C6A0A2BDE0 /* PeekPop.xcconfig */,
+				32C019D27F767F0D2153860DC36B48FA /* PeekPop-dummy.m */,
+				F696C301BDEE2FD45BD8460067CA9001 /* PeekPop-prefix.pch */,
+				57080E8A886B55198FC2A0F889260B6B /* PeekPop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PeekPop";
+			sourceTree = "<group>";
+		};
+		9FA28FEC28AAFA1E635D09412C6C9956 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				610AF41DD93B31C4CFE85094C12F3F4B /* Info.plist */,
+				750C0B0E7C62F8F669A24F9390159AEB /* JTSImageViewController.modulemap */,
+				86A245CE3407FD4A985734684AD497D3 /* JTSImageViewController.xcconfig */,
+				5F45F4042F6F8BAAB8C69A716350FED1 /* JTSImageViewController-dummy.m */,
+				64F830FF533B733BAC8A4A3228CD29E6 /* JTSImageViewController-prefix.pch */,
+				F1C5F3EA905EB91A559127D198FCB6BE /* JTSImageViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTSImageViewController";
+			sourceTree = "<group>";
+		};
+		EBDDB930DC18FD518F7E2D3B5A4CF6C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C3BEAD0200CEEB719CE8B7D38959BE /* GradientView */,
+				ED222CAFA3F1F809C7D451B5943B6D86 /* JTSImageViewController */,
+				1C3CA9A35129D1960F1F44042A0D92B7 /* PeekPop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED222CAFA3F1F809C7D451B5943B6D86 /* JTSImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7AE4B902C461CD81CB89604B866CC4D /* JTSAnimatedGIFUtility.h */,
+				64B4EFCFBAA5037DB5CCAF3830DFF005 /* JTSAnimatedGIFUtility.m */,
+				DB403B968EADBAB6B10B5712D38CD231 /* JTSImageInfo.h */,
+				C74077769AE41AA2596E5071F1C6F333 /* JTSImageInfo.m */,
+				332014151F8B1BB9186F1E00BA211B4B /* JTSImageViewController.h */,
+				4EF0794486112AFCB7B836BEA93602CC /* JTSImageViewController.m */,
+				ABBD1BE395C7C803E48B2DBC329C81AA /* JTSSimpleImageDownloader.h */,
+				4B4FC873FE55B4DD6A7B5A04EE5327CE /* JTSSimpleImageDownloader.m */,
+				43CA886373010BFE5831DC7FE768DE77 /* UIApplication+JTSImageViewController.h */,
+				327DF4CA4F85B1AB5B07912852AF7ECE /* UIApplication+JTSImageViewController.m */,
+				99C79E2D73C5216F35F1D980E501BA01 /* UIImage+JTSImageEffects.h */,
+				7A03546650B20BF29D9E826349F63FB5 /* UIImage+JTSImageEffects.m */,
+				9FA28FEC28AAFA1E635D09412C6C9956 /* Support Files */,
+			);
+			path = JTSImageViewController;
+			sourceTree = "<group>";
+		};
+		EE14B38451681CF5014EA497D7CC5D16 /* Pods-Finn GaidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2CA8CF355F6CE0D483587605BAF9F3B /* Info.plist */,
+				254202F98678ECE9DEEE955C0C7DA3B7 /* Pods-Finn GaidaTests.modulemap */,
+				010F67B173678A6491117523F9FDDD5A /* Pods-Finn GaidaTests-acknowledgements.markdown */,
+				DF2850BF34ED8CB9D3598242C34BDBE7 /* Pods-Finn GaidaTests-acknowledgements.plist */,
+				4E7339D38DF6656C3C99D3D326269265 /* Pods-Finn GaidaTests-dummy.m */,
+				92998A04E57E228B55EF02A613BF2EBA /* Pods-Finn GaidaTests-frameworks.sh */,
+				1A011BF593AF651F78CC7C6654366C49 /* Pods-Finn GaidaTests-resources.sh */,
+				7F68CC7C0E0B176E25ADA9A57FB2E27B /* Pods-Finn GaidaTests-umbrella.h */,
+				EFCCDC1E71E1893C1BFAE842BE774242 /* Pods-Finn GaidaTests.debug.xcconfig */,
+				09A807FFE548C7B453D2B421985F2E08 /* Pods-Finn GaidaTests.release.xcconfig */,
+			);
+			name = "Pods-Finn GaidaTests";
+			path = "Target Support Files/Pods-Finn GaidaTests";
+			sourceTree = "<group>";
+		};
+		FF39C816E03BF05B6DE10BB24D326D5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21DF817DCEF71410F9673896E10FBB35 /* Pods-Finn Gaida */,
+				EE14B38451681CF5014EA497D7CC5D16 /* Pods-Finn GaidaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B99096C91E292BA80B5304206FBDC83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DE2BBF73FF83731384C9AF2096C41D /* GradientView-umbrella.h in Headers */,
+				37ABA4AB80729B5D7AA0AD4245BDA710 /* GradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95780E7F590FB4E9C81775149A0BABE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9618565F8F3D439D036B005BEC05AF /* Pods-Finn Gaida-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD20C62715AA105D56A76789A92C363 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A590899AB2385E77CD96F07BCC8DD0D6 /* PeekPop-umbrella.h in Headers */,
+				0E66653BCF70B96636617251337FDF47 /* PeekPop.h in Headers */,
+				9632229B8AE5A7D87966AFA8E164C0E1 /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A879103186A6D1DDB80345A51E96E14B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22289EC198955DEDB900A28B5C6A7B6D /* JTSAnimatedGIFUtility.h in Headers */,
+				100F00AE74DF3E51103F576B177D73F4 /* JTSImageInfo.h in Headers */,
+				F2FE2EC928C0D880EC074D6FE520B532 /* JTSImageViewController-umbrella.h in Headers */,
+				517560494E81D7A3A352C776C322FF51 /* JTSImageViewController.h in Headers */,
+				F508031DE94759906A6C7C0A323DCA9A /* JTSSimpleImageDownloader.h in Headers */,
+				633F33B90B61B99C6206A5E13FBE13E0 /* UIApplication+JTSImageViewController.h in Headers */,
+				96FF08C7D4834EC544263B0C52506DD8 /* UIImage+JTSImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD267AC6E465028B3C95230D0E19A97E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C071FAE4C40AAA4B42817D6CB6C5C6F /* Pods-Finn GaidaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DE7DCF23E5255E71816224105935B07 /* Pods-Finn GaidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1401E3AA40DF99126B50D43A7BF625 /* Build configuration list for PBXNativeTarget "Pods-Finn GaidaTests" */;
+			buildPhases = (
+				86513AF33D5BDA1406014CAD0785DB48 /* Sources */,
+				7810D1A545D25613D56C4D671711C8D0 /* Frameworks */,
+				BD267AC6E465028B3C95230D0E19A97E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Finn GaidaTests";
+			productName = "Pods-Finn GaidaTests";
+			productReference = F3C7AE2ACD440D3D0231F98D2C208412 /* Pods_Finn_GaidaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CEA85D5BF347C6197367BC40DCF4CB7 /* Pods-Finn Gaida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18963D64F953F62B0B7B522369C5BD5C /* Build configuration list for PBXNativeTarget "Pods-Finn Gaida" */;
+			buildPhases = (
+				D090723E94D68467E4219D0B3F28C9BC /* Sources */,
+				7FEDD6E30B379146BC1F2B245B158783 /* Frameworks */,
+				95780E7F590FB4E9C81775149A0BABE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF7C4EDAF55F52F8720AD9886D0E4F5 /* PBXTargetDependency */,
+				7015E78ECACFFD4C462E350C31FD7EBD /* PBXTargetDependency */,
+				87A4BF275CBB7E3315CDD97AF2C8CEEE /* PBXTargetDependency */,
+			);
+			name = "Pods-Finn Gaida";
+			productName = "Pods-Finn Gaida";
+			productReference = C7308E409E565C4BF618B427865857BC /* Pods_Finn_Gaida.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		888468051D3F2FB20DEDE1FF5C86DFF8 /* PeekPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706652BFF852ABB7F58D791E8961CD62 /* Build configuration list for PBXNativeTarget "PeekPop" */;
+			buildPhases = (
+				FF2B0E43D38428106182A51FDCBE7713 /* Sources */,
+				C64CEDC4BD00C48597C87984C8A6DA60 /* Frameworks */,
+				9AD20C62715AA105D56A76789A92C363 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeekPop;
+			productName = PeekPop;
+			productReference = 3B625D2FAA0B92A9610BC94A86AC2B2F /* PeekPop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D714037593A1D0448AF01C98C0203714 /* GradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA42D724A67D7AA4A073228A0D4ABF5 /* Build configuration list for PBXNativeTarget "GradientView" */;
+			buildPhases = (
+				BBA360475881DB75EEC4A81BA88598FD /* Sources */,
+				89952221F1E2E6C4A87EA87C85948CA9 /* Frameworks */,
+				5B99096C91E292BA80B5304206FBDC83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientView;
+			productName = GradientView;
+			productReference = 2150B3B587B27F0799B01D149401AB7C /* GradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAE26C46CFBAF39E4C96ABF16B93D9FC /* JTSImageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE48336DD35806D988C3EF0E4B506803 /* Build configuration list for PBXNativeTarget "JTSImageViewController" */;
+			buildPhases = (
+				5796E091167EDBD57828139261540B69 /* Sources */,
+				51A4EF2A263A8ECD774222AB8BACC3E6 /* Frameworks */,
+				A879103186A6D1DDB80345A51E96E14B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTSImageViewController;
+			productName = JTSImageViewController;
+			productReference = 963C08B5D4BBE5AEC569895BA189FA30 /* JTSImageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2EE10A6644DA909A3609A98814F0BFA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D714037593A1D0448AF01C98C0203714 /* GradientView */,
+				FAE26C46CFBAF39E4C96ABF16B93D9FC /* JTSImageViewController */,
+				888468051D3F2FB20DEDE1FF5C86DFF8 /* PeekPop */,
+				7CEA85D5BF347C6197367BC40DCF4CB7 /* Pods-Finn Gaida */,
+				3DE7DCF23E5255E71816224105935B07 /* Pods-Finn GaidaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5796E091167EDBD57828139261540B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED9FDCD6D833760F39BB93F6A3B7885 /* JTSAnimatedGIFUtility.m in Sources */,
+				3D9249EF5088E610496EAC89DBBB883F /* JTSImageInfo.m in Sources */,
+				234A2F15B44DA0C2C5A818FFEB2330D0 /* JTSImageViewController-dummy.m in Sources */,
+				25690DF1BB0725785AEDA7680B25AE64 /* JTSImageViewController.m in Sources */,
+				1786DD6368EB1C8963ED26FA803CEC6E /* JTSSimpleImageDownloader.m in Sources */,
+				2F751006B3406200D9B7D996742A3BF3 /* UIApplication+JTSImageViewController.m in Sources */,
+				DB90027D6022CFE71BFAB9D67C7B924B /* UIImage+JTSImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86513AF33D5BDA1406014CAD0785DB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF21BA3A0C5BC690CBC6E60FF3C7EEA /* Pods-Finn GaidaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA360475881DB75EEC4A81BA88598FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADE2450D138F23249AB7C3A42184931 /* GradientView-dummy.m in Sources */,
+				D75482EDB6BFE64D498B758794A126CA /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D090723E94D68467E4219D0B3F28C9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643C785B0936527C4DABF2EBA6498653 /* Pods-Finn Gaida-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2B0E43D38428106182A51FDCBE7713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B41470861BB296D045411D3649A6001 /* ForceTouchDelegate.swift in Sources */,
+				350D9CE9DD1DDF29AA16B44CDD6E0FCB /* PeekPop-dummy.m in Sources */,
+				959476770DF078D0E186C16D2915332B /* PeekPop.swift in Sources */,
+				3AE36433E84CAC4BB4E81568CD7895BE /* PeekPopExtensions.swift in Sources */,
+				9E8C1220A01D0FA5AFED68D46D3F6122 /* PeekPopGestureRecognizer.swift in Sources */,
+				4075CA934892CC5BCDA691B0D8FC944B /* PeekPopManager.swift in Sources */,
+				839BB28EE1ECB28F68F5C6976A5C2254 /* PeekPopView.swift in Sources */,
+				8CAAEA29F29319EAC43A9195E3277562 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7015E78ECACFFD4C462E350C31FD7EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTSImageViewController;
+			target = FAE26C46CFBAF39E4C96ABF16B93D9FC /* JTSImageViewController */;
+			targetProxy = D2CE2BD028197C04C87775106BE4D8AC /* PBXContainerItemProxy */;
+		};
+		87A4BF275CBB7E3315CDD97AF2C8CEEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PeekPop;
+			target = 888468051D3F2FB20DEDE1FF5C86DFF8 /* PeekPop */;
+			targetProxy = 1B8DD403849DCBCABB0B41C56BAE960E /* PBXContainerItemProxy */;
+		};
+		BEF7C4EDAF55F52F8720AD9886D0E4F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GradientView;
+			target = D714037593A1D0448AF01C98C0203714 /* GradientView */;
+			targetProxy = 54D131F1A38FA695C96FB730367A728E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01EFDE38C7FD91AD32693E06288BF1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428717932AB69D6E71F3A8C6A0A2BDE0 /* PeekPop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PeekPop/PeekPop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PeekPop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PeekPop/PeekPop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PeekPop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		061F14CB5A0A97AE4DE6B8034DD90CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A807FFE548C7B453D2B421985F2E08 /* Pods-Finn GaidaTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finn GaidaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finn GaidaTests/Pods-Finn GaidaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Finn_GaidaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23401C3D715527AA6A688BA4E402ABD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732998CDFDF1E0339C84EC8B15A9234F /* GradientView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GradientView/GradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GradientView/GradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31553057C660BC86BB9875283C8D3680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732998CDFDF1E0339C84EC8B15A9234F /* GradientView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GradientView/GradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GradientView/GradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47B6A1E6DCF455ED4DCC77E684AD9E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		540C2A9BA94E89139DFF05AA9C019CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCCDC1E71E1893C1BFAE842BE774242 /* Pods-Finn GaidaTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finn GaidaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finn GaidaTests/Pods-Finn GaidaTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Finn_GaidaTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76E68E0A1758C3CB3CF137C6EFD99D52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C706D1F606326B068A8621F476A580 /* Pods-Finn Gaida.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finn Gaida/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finn Gaida/Pods-Finn Gaida.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Finn_Gaida;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80F54A13D8332B4203E3201521554957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 428717932AB69D6E71F3A8C6A0A2BDE0 /* PeekPop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PeekPop/PeekPop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PeekPop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PeekPop/PeekPop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PeekPop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A850377B91844C2B5ECCBB07CC22AE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A245CE3407FD4A985734684AD497D3 /* JTSImageViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTSImageViewController/JTSImageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTSImageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTSImageViewController/JTSImageViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JTSImageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFFF2C595546C29B7F7E48A82F942BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A245CE3407FD4A985734684AD497D3 /* JTSImageViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTSImageViewController/JTSImageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTSImageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTSImageViewController/JTSImageViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JTSImageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D52611DCF0831A5275CFBBCCA9FB9AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AFF99AC614A1FBB44B338063EDC3BB /* Pods-Finn Gaida.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finn Gaida/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finn Gaida/Pods-Finn Gaida.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Finn_Gaida;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD403B90E1C26CB439A7553EB593E162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18963D64F953F62B0B7B522369C5BD5C /* Build configuration list for PBXNativeTarget "Pods-Finn Gaida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E68E0A1758C3CB3CF137C6EFD99D52 /* Debug */,
+				D52611DCF0831A5275CFBBCCA9FB9AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B6A1E6DCF455ED4DCC77E684AD9E54 /* Debug */,
+				FD403B90E1C26CB439A7553EB593E162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1401E3AA40DF99126B50D43A7BF625 /* Build configuration list for PBXNativeTarget "Pods-Finn GaidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540C2A9BA94E89139DFF05AA9C019CD9 /* Debug */,
+				061F14CB5A0A97AE4DE6B8034DD90CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706652BFF852ABB7F58D791E8961CD62 /* Build configuration list for PBXNativeTarget "PeekPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F54A13D8332B4203E3201521554957 /* Debug */,
+				01EFDE38C7FD91AD32693E06288BF1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE48336DD35806D988C3EF0E4B506803 /* Build configuration list for PBXNativeTarget "JTSImageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF2C595546C29B7F7E48A82F942BB7 /* Debug */,
+				A850377B91844C2B5ECCBB07CC22AE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA42D724A67D7AA4A073228A0D4ABF5 /* Build configuration list for PBXNativeTarget "GradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23401C3D715527AA6A688BA4E402ABD9 /* Debug */,
+				31553057C660BC86BB9875283C8D3680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

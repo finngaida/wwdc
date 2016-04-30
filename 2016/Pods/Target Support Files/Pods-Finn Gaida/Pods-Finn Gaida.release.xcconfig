@@ -1,0 +1,8 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$CONFIGURATION_BUILD_DIR/GradientView" "$CONFIGURATION_BUILD_DIR/JTSImageViewController" "$CONFIGURATION_BUILD_DIR/PeekPop"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/GradientView/GradientView.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/JTSImageViewController/JTSImageViewController.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/PeekPop/PeekPop.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "GradientView" -framework "JTSImageViewController" -framework "PeekPop"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_ROOT = ${SRCROOT}/Pods

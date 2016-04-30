@@ -1,0 +1,18 @@
+PODS:
+  - GradientView (2.1.0)
+  - JTSImageViewController (1.5.1)
+  - PeekPop (0.1.4)
+
+DEPENDENCIES:
+  - GradientView
+  - JTSImageViewController
+  - PeekPop
+
+SPEC CHECKSUMS:
+  GradientView: 4a961b8e9e1787beaf6880b9fc2dd08c6345533d
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  PeekPop: 60d582dccea08948e7e033411b6d7917be6bcb2e
+
+PODFILE CHECKSUM: 088662ba9c2fced594f26e0c5c13da6a55c1c032
+
+COCOAPODS: 1.0.0.beta.6
