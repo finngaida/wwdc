@@ -7,3 +7,4 @@ script:
  - xcodebuild test -project 2013/iAm\ Finn.xcodeproj -scheme iAmFinnTests -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c
  - xcodebuild test -project 2014/Finn\ Gaida.xcodeproj -scheme FinnGaidaTests -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c
  - xcodebuild test -project 2015/Finn\ Gaida.xcodeproj -scheme FinnGaidaTests -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c
+ - xcodebuild test -project 2016/Finn\ Gaida.xcodeproj -scheme FinnGaidaTests -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c
